@@ -1,0 +1,18 @@
+$(function(){
+	$(".individual").click(function(){
+		$("#personalBox").css("display","block");
+		$("#societyBox").css("display","none");
+		$("#horizonLine1").removeClass("grayline2");
+		$("#horizonLine3").removeClass("grayline4");
+		$(".association").css("color","#8B8B7F");
+		$(".individual").css("color","orange");
+	});
+	$(".association").click(function(){
+		$("#personalBox").css("display","none");
+		$("#societyBox").css("display","block");
+		$("#horizonLine1").addClass("grayline2");
+		$("#horizonLine3").addClass("grayline4");
+		$(".association").css("color","orange");
+		$(".individual").css("color","#8B8B7F");
+	});
+});

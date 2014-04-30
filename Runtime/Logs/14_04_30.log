@@ -1,0 +1,167 @@
+[ 2014-04-30T08:11:01+08:00 ] ERR: (ThinkException) Access denied for user 'root'@'localhost' (using password: YES)
+[ 2014-04-30T08:11:01+08:00 ] 0.0.0.0 /SVN/qiuzudui/index.php/Team
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001443s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001607s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001209s ]
+NOTIC: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) D:\wamp\www\SVN\qiuzudui\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+NOTIC: [8] Undefined index: file D:\wamp\www\SVN\qiuzudui\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [8] Undefined index: line D:\wamp\www\SVN\qiuzudui\ThinkPHP\Lib\Core\ThinkException.class.php 第 62 行.
+NOTIC: [4096] Object of class TeamAction could not be converted to string D:\wamp\www\SVN\qiuzudui\ThinkPHP\Lib\Core\ThinkException.class.php 第 64 行.
+NOTIC: [8] Undefined index: class D:\wamp\www\SVN\qiuzudui\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type D:\wamp\www\SVN\qiuzudui\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: class D:\wamp\www\SVN\qiuzudui\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+NOTIC: [8] Undefined index: type D:\wamp\www\SVN\qiuzudui\ThinkPHP\Lib\Core\ThinkException.class.php 第 63 行.
+
+[ 2014-04-30T08:11:28+08:00 ] 0.0.0.0 /SVN/qiuzudui/index.php/Team
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001092s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001238s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001007s ]
+SQL: SHOW COLUMNS FROM `think_invitation` [ RunTime:0.003082s ]
+SQL: SELECT * FROM `think_invitation` WHERE ( `invitor_id` = 2 )  [ RunTime:0.000341s ]
+SQL: SELECT * FROM `think_invitation` WHERE ( `invitee_id` = 2 )  [ RunTime:0.000248s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\SVN\qiuzudui\Lib\Action\TeamAction.class.php 第 12 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\SVN\qiuzudui\Lib\Action\TeamAction.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.003207s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000309s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001218s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001346s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.014199s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014352s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000765s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000725s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000758s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000961s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003584s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000905s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001022s ]
+
+[ 2014-04-30T08:12:07+08:00 ] 0.0.0.0 /SVN/qiuzudui/index.php/Team
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001270s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001457s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001345s ]
+SQL: SHOW COLUMNS FROM `think_invitation` [ RunTime:0.003480s ]
+SQL: SELECT * FROM `think_invitation` WHERE ( `invitor_id` = 2 )  [ RunTime:0.000365s ]
+SQL: SELECT * FROM `think_invitation` WHERE ( `invitee_id` = 2 )  [ RunTime:0.000288s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\SVN\qiuzudui\Lib\Action\TeamAction.class.php 第 12 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\SVN\qiuzudui\Lib\Action\TeamAction.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.003284s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000339s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001226s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001360s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.013957s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014103s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000805s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000722s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000565s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000854s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003273s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000987s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001117s ]
+
+[ 2014-04-30T08:12:24+08:00 ] 0.0.0.0 /SVN/qiuzudui/index.php/Team
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001262s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001422s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001145s ]
+SQL: SHOW COLUMNS FROM `think_invitation` [ RunTime:0.003514s ]
+SQL: SELECT * FROM `think_invitation` WHERE ( `invitor_id` = 2 )  [ RunTime:0.000379s ]
+SQL: SELECT * FROM `think_invitation` WHERE ( `invitee_id` = 2 )  [ RunTime:0.000276s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\SVN\qiuzudui\Lib\Action\TeamAction.class.php 第 12 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\SVN\qiuzudui\Lib\Action\TeamAction.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.003751s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000298s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001387s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001529s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.014651s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014799s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000767s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000733s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000605s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000850s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003279s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000962s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001085s ]
+
+[ 2014-04-30T08:12:49+08:00 ] 0.0.0.0 /SVN/qiuzudui/index.php/Team
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002225s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002459s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001756s ]
+SQL: SHOW COLUMNS FROM `think_invitation` [ RunTime:0.003128s ]
+SQL: SELECT * FROM `think_invitation` WHERE ( `invitor_id` = 2 )  [ RunTime:0.000382s ]
+SQL: SELECT * FROM `think_invitation` WHERE ( `invitee_id` = 2 )  [ RunTime:0.000222s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\SVN\qiuzudui\Lib\Action\TeamAction.class.php 第 12 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\SVN\qiuzudui\Lib\Action\TeamAction.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.003447s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000356s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001393s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001520s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.013801s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013948s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000891s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000851s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000688s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000960s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003709s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001019s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001136s ]
+
+[ 2014-04-30T08:13:33+08:00 ] 0.0.0.0 /SVN/qiuzudui/index.php/Team
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001373s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001551s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001245s ]
+SQL: SHOW COLUMNS FROM `think_invitation` [ RunTime:0.003155s ]
+SQL: SELECT * FROM `think_invitation` WHERE ( `invitor_id` = 2 )  [ RunTime:0.000423s ]
+SQL: SELECT * FROM `think_invitation` WHERE ( `invitee_id` = 2 )  [ RunTime:0.000260s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\SVN\qiuzudui\Lib\Action\TeamAction.class.php 第 12 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\SVN\qiuzudui\Lib\Action\TeamAction.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.003283s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000294s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001236s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001364s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.013506s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013648s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000777s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000726s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000569s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000842s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003234s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001373s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001556s ]
+

@@ -1,0 +1,127 @@
+a{
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#content {
+	height: 100%;
+}
+/* container */
+.container {
+	background-color: #F2F2EB;
+	margin-top: -10px;
+	margin-bottom: 30px;
+	min-height: 100%;
+}
+
+/* header */
+.header {
+	margin: 50px 375px 0px 346px;
+	font-size: 25px;
+	text-align: center;
+	color: orange;
+} 
+/* header end */
+
+/* headerline */
+.headerline {
+	display: inline-block;
+	height: 2px;
+	margin: 10px -5px 0px 0px;
+}
+
+.headerline.grayline1 {
+	width: 401px;
+	background-color: #C2C2BC;
+} 
+
+.headerline.orangeline {
+	width: 120px;
+	background-color: orange;	
+}
+
+.headerline.grayline2 {
+	width: 421px;
+	background-color: #C2C2BC;
+} 
+/* headerline end */
+
+.message{
+	width: 400px;
+	height: auto;
+	margin-left: 300px;
+}
+.message ul li{
+	list-style: none;
+	margin-top: 18px;
+}
+.message ul li img{
+	width: 70px;
+	height: 70px;
+}
+
+.message ul li a {
+	color: #ff974f;
+}
+.message ul li  .detailLink{
+	color: #626262;
+}
+.message ul li .messageTitle {
+	display: inline-block;
+	font-size: 17px;
+	color: #ff974f;
+	width:93px;
+	text-align: right;
+}
+
+.message ul li .messageDetail {
+	color: #626262;
+	margin-left: 20px;
+}
+
+.message ul li .messageDetail.intro{
+	position: relative;
+	left: 26%;
+	top: -19px;
+	display: block;
+	text-indent: 2em;
+}
+
+
+.message ul li .messageEdit{
+	cursor: pointer;
+	margin-right: 15px;
+	color: #ff974f;
+}
+.message ul li .messageEdit:hover {
+	text-decoration: underline;
+	cursor:hand;
+}
+
+/*passwordChange*/
+#passwordChange {
+	display: none;
+	width: 500px;
+	margin: 0 auto;
+	margin-left: 265px;
+	/*border: 1px solid #ff974f;*/
+	padding: 30px;
+	margin-bottom: 30px;
+	margin-top: 10px;
+}
+#passwordChange ul li{
+	list-style: none;
+	margin-top: 5px;
+}
+#passwordChange label {
+	font-size: 14px;
+	font-weight: bold;
+	display:inline-block;
+	width:70px;
+	padding-right:5px;
+	text-align:left;
+}
+#passwordChange input {
+	width: 140px;
+}
+/*passwordChange end*/

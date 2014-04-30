@@ -1,0 +1,781 @@
+[ 2014-04-20T19:30:59+08:00 ] 127.0.0.1 /qiuzudui/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.079250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.100017s ]
+NOTIC: [8] Undefined index:  user C:\AppServ\www\qiuzudui\Lib\Action\IndexAction.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_activity` [ RunTime:1.291741s ]
+SQL: SELECT * FROM `think_activity`  [ RunTime:0.291953s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.116747s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 17 ) LIMIT 1   [ RunTime:0.048290s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 17 ) LIMIT 1   [ RunTime:0.001567s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.028942s ]
+INFO: [ view_template ] --END-- [ RunTime:0.029282s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.230308s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.230694s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.025255s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.041851s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.004604s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.013277s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.085960s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.009533s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009827s ]
+
+[ 2014-04-20T19:31:07+08:00 ] 127.0.0.1 /qiuzudui/index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.046752s ]
+INFO: [ route_check ] --END-- [ RunTime:0.046998s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001677s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.060616s ]
+SQL: SELECT * FROM `think_user` WHERE ( `email` = '605860112@qq.com' ) AND ( `password` = 'flashman1994' ) LIMIT 1   [ RunTime:0.061843s ]
+
+[ 2014-04-20T19:31:08+08:00 ] 127.0.0.1 /qiuzudui/index.php/Index/index_personal
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003418s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003896s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001807s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.004791s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 15 ) LIMIT 1   [ RunTime:0.000802s ]
+SQL: SHOW COLUMNS FROM `think_activity` [ RunTime:0.004325s ]
+SQL: SELECT * FROM `think_activity`  [ RunTime:0.000571s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.004905s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 17 ) LIMIT 1   [ RunTime:0.000632s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 17 ) LIMIT 1   [ RunTime:0.000557s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.016668s ]
+INFO: [ view_template ] --END-- [ RunTime:0.016878s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.074516s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074733s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001013s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001037s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000580s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001082s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004203s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001390s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001544s ]
+
+[ 2014-04-20T19:31:11+08:00 ] 127.0.0.1 /qiuzudui/index.php/Profile/info
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.007457s ]
+INFO: [ route_check ] --END-- [ RunTime:0.007801s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.008653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009035s ]
+
+[ 2014-04-20T19:31:11+08:00 ] 127.0.0.1 /qiuzudui/index.php/Profile/info_personal
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003240s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003533s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002201s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.006079s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 15 ) LIMIT 1   [ RunTime:0.001324s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.147120s ]
+INFO: [ view_template ] --END-- [ RunTime:0.147448s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: success C:\AppServ\www\qiuzudui\Runtime\Cache\371ab2c290ac5e940e1b1f1c8bb0e581.php 第 13 行.
+NOTIC: [8] Undefined variable: success C:\AppServ\www\qiuzudui\Runtime\Cache\371ab2c290ac5e940e1b1f1c8bb0e581.php 第 18 行.
+NOTIC: [8] Undefined variable: ac C:\AppServ\www\qiuzudui\Runtime\Cache\371ab2c290ac5e940e1b1f1c8bb0e581.php 第 37 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.441248s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.441505s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003009s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003096s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002655s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003580s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013584s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003711s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003957s ]
+
+[ 2014-04-20T19:31:20+08:00 ] 127.0.0.1 /qiuzudui/index.php/Profile
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.018227s ]
+INFO: [ route_check ] --END-- [ RunTime:0.018478s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001816s ]
+
+[ 2014-04-20T19:31:21+08:00 ] 127.0.0.1 /qiuzudui/index.php/Profile/profile_personal
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005367s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005628s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001868s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.032703s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 15 ) LIMIT 1   [ RunTime:0.000573s ]
+SQL: SHOW COLUMNS FROM `think_ability` [ RunTime:0.166241s ]
+SQL: SHOW COLUMNS FROM `think_user_ability` [ RunTime:0.035925s ]
+ERR: Table 'qiuzudui.think_user_ability' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_user_ability`
+SQL: SHOW COLUMNS FROM `think_userability` [ RunTime:0.136825s ]
+SQL: SELECT * FROM `think_userability` WHERE ( `user_id` = 15 )  [ RunTime:0.063028s ]
+SQL: SHOW COLUMNS FROM `think_ability` [ RunTime:0.006063s ]
+SQL: SELECT * FROM `think_ability` WHERE ( `id` = 15 ) LIMIT 1   [ RunTime:0.000877s ]
+SQL: SELECT * FROM `think_ability` WHERE ( `id` = 16 ) LIMIT 1   [ RunTime:0.000767s ]
+SQL: SELECT * FROM `think_ability` WHERE ( `id` = 17 ) LIMIT 1   [ RunTime:0.000795s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.011756s ]
+INFO: [ view_template ] --END-- [ RunTime:0.012066s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: success C:\AppServ\www\qiuzudui\Runtime\Cache\763ce6848af5323b713fe0da41a3eb15.php 第 3 行.
+NOTIC: [8] Undefined variable: ac C:\AppServ\www\qiuzudui\Runtime\Cache\763ce6848af5323b713fe0da41a3eb15.php 第 49 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.093603s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093881s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001537s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001498s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001666s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002424s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007897s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002300s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002559s ]
+
+[ 2014-04-20T19:31:26+08:00 ] 127.0.0.1 /qiuzudui/index.php/Login/logout
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004030s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004382s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001986s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002260s ]
+
+[ 2014-04-20T19:31:27+08:00 ] 127.0.0.1 /qiuzudui/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002997s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003314s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002878s ]
+NOTIC: [8] Undefined index:  user C:\AppServ\www\qiuzudui\Lib\Action\IndexAction.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_activity` [ RunTime:0.008623s ]
+SQL: SELECT * FROM `think_activity`  [ RunTime:0.000937s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.007559s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 17 ) LIMIT 1   [ RunTime:0.000936s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 17 ) LIMIT 1   [ RunTime:0.000790s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002111s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002363s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.063503s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063889s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001665s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001466s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000953s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001617s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006916s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002078s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002331s ]
+
+[ 2014-04-20T19:31:33+08:00 ] 127.0.0.1 /qiuzudui/index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.010450s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010824s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.005497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006039s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.021378s ]
+SQL: SELECT * FROM `think_user` WHERE ( `email` = '605860111@qq.com' ) AND ( `password` = 'flashman1994' ) LIMIT 1   [ RunTime:0.000774s ]
+
+[ 2014-04-20T19:31:33+08:00 ] 127.0.0.1 /qiuzudui/index.php/Index/index_society
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003729s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004111s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002364s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.007322s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 17 ) LIMIT 1   [ RunTime:0.001116s ]
+SQL: SHOW COLUMNS FROM `think_activity` [ RunTime:0.008095s ]
+SQL: SELECT * FROM `think_activity`  [ RunTime:0.001002s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.007211s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 17 ) LIMIT 1   [ RunTime:0.001408s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 17 ) LIMIT 1   [ RunTime:0.001150s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.015193s ]
+INFO: [ view_template ] --END-- [ RunTime:0.015508s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.139799s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.140121s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003850s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003969s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002818s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003419s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014886s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.004586s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004969s ]
+
+[ 2014-04-20T19:31:40+08:00 ] 127.0.0.1 /qiuzudui/index.php/Profile/info
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.019488s ]
+INFO: [ route_check ] --END-- [ RunTime:0.019922s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004526s ]
+
+[ 2014-04-20T19:31:40+08:00 ] 127.0.0.1 /qiuzudui/index.php/Profile/info_society
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003594s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003927s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002699s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.007514s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 17 ) LIMIT 1   [ RunTime:0.000945s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.024051s ]
+INFO: [ view_template ] --END-- [ RunTime:0.024375s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.135105s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.135487s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003419s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003457s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002380s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003380s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013474s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.004226s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004521s ]
+
+[ 2014-04-20T19:31:42+08:00 ] 127.0.0.1 /qiuzudui/index.php/Profile
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005525s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005882s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002225s ]
+
+[ 2014-04-20T19:31:43+08:00 ] 127.0.0.1 /qiuzudui/index.php/Profile/profile_society
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005663s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006020s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002483s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.008952s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 17 ) LIMIT 1   [ RunTime:0.000899s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.021277s ]
+INFO: [ view_template ] --END-- [ RunTime:0.021616s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: success C:\AppServ\www\qiuzudui\Runtime\Cache\8f763adf0c93f12faf94bb1133e2dc7a.php 第 14 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.081591s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081865s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001644s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001501s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001342s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001729s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006929s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002095s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002402s ]
+
+[ 2014-04-20T19:32:04+08:00 ] 127.0.0.1 /qiuzudui/index.php/Profile/changeProfile
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003996s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004472s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002267s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.028971s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 17 ) LIMIT 1   [ RunTime:0.001292s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.008701s ]
+SQL: UPDATE `think_user` SET `name`='AB社',`email`='605860111@qq.com',`introduction`='        小温姑娘问我，为什么领导干部会喜欢民歌歌手，而不是流行歌曲歌手呢？\r\n       这其实是几个含义：\r\n       高级官员，一般是副部级及以上，50岁到65岁之间的那批人。国家领导人，一般是55岁到70岁之间的人。出生在50年代和60年代初，是大多数你听说过的大领导的背景。\r\n\r\n这批人听着民族唱法长大，到后来民族唱法越来越好听了（当然，本来就站不住，后来基本上近于美声了，就好了）他们喜欢的就是那种调调，我们都喜欢青春期的时候遇到的那种漂亮异性，启蒙时的人往往会决定一生的品味。' WHERE ( `id` = 17 ) [ RunTime:0.251154s ]
+NOTIC: [8] Undefined index:  skills C:\AppServ\www\qiuzudui\Lib\Action\ProfileAction.class.php 第 187 行.
+SQL: SHOW COLUMNS FROM `think_userability` [ RunTime:0.005956s ]
+NOTIC: [8] Undefined variable: condition C:\AppServ\www\qiuzudui\Lib\Model\UserabilityModel.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `think_ability` [ RunTime:0.007307s ]
+SQL: SELECT * FROM `think_ability` WHERE ( `name` = '' ) LIMIT 1   [ RunTime:0.000917s ]
+SQL: SELECT * FROM `think_ability` WHERE ( `name` = '' ) LIMIT 1   [ RunTime:0.000814s ]
+SQL: SELECT * FROM `think_userability` WHERE ( `user_id` = 17 ) AND ( `ability_id` = 22 ) LIMIT 1   [ RunTime:0.034449s ]
+SQL: SHOW COLUMNS FROM `think_userability` [ RunTime:0.013603s ]
+SQL: INSERT INTO `think_userability` (`user_id`,`ability_id`) VALUES (17,22) [ RunTime:0.030035s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.013166s ]
+INFO: [ view_template ] --END-- [ RunTime:0.013487s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.059215s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059702s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001348s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001314s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000905s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002950s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007293s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002510s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002783s ]
+
+[ 2014-04-20T19:32:06+08:00 ] 127.0.0.1 /qiuzudui/index.php/Profile/profile_society
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003297s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003635s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002652s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.039813s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 17 ) LIMIT 1   [ RunTime:0.010830s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001581s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001871s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: success C:\AppServ\www\qiuzudui\Runtime\Cache\8f763adf0c93f12faf94bb1133e2dc7a.php 第 14 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.048386s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048658s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002220s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001544s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.003850s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001748s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010934s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002475s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002850s ]
+
+[ 2014-04-20T19:32:20+08:00 ] 127.0.0.1 /qiuzudui/index.php/Profile/info
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.008334s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008701s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001965s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002234s ]
+
+[ 2014-04-20T19:32:20+08:00 ] 127.0.0.1 /qiuzudui/index.php/Profile/info_society
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003079s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003394s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002995s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.007581s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 17 ) LIMIT 1   [ RunTime:0.001013s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001909s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002183s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.079623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079986s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001574s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001377s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000862s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001552s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006079s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002207s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002488s ]
+
+[ 2014-04-20T19:35:59+08:00 ] 127.0.0.1 /qiuzudui/index.php/Profile
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.021525s ]
+INFO: [ route_check ] --END-- [ RunTime:0.022042s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004686s ]
+
+[ 2014-04-20T19:35:59+08:00 ] 127.0.0.1 /qiuzudui/index.php/Profile/profile_society
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003204s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003537s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002412s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.006722s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 17 ) LIMIT 1   [ RunTime:0.001220s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.005820s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006071s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: success C:\AppServ\www\qiuzudui\Runtime\Cache\8f763adf0c93f12faf94bb1133e2dc7a.php 第 14 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.046520s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046739s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003148s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002944s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.004894s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002542s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014199s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003005s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003275s ]
+
+[ 2014-04-20T19:36:30+08:00 ] 127.0.0.1 /qiuzudui/index.php/Profile/changeProfile
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005670s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006004s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.005357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005691s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.033053s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 17 ) LIMIT 1   [ RunTime:0.000955s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.007203s ]
+SQL: UPDATE `think_user` SET `name`='AB社',`email`='605860111@qq.com',`introduction`='        小温姑娘问我，为什么领导干部会喜欢民歌歌手，而不是流行歌曲歌手呢？\r\n       这其实是几个含义：\r\n       高级官员，一般是副部级及以上，50岁到65岁之间的那批人。国家领导人，一般是55岁到70岁之间的人。出生在50年代和60年代初，是大多数你听说过的大领导的背景。\r\n\r\n这批人听着民族唱法长大，到后来民族唱法越来越好听了（当然，本来就站不住，后来基本上近于美声了，就' WHERE ( `id` = 17 ) [ RunTime:0.034882s ]
+NOTIC: [8] Undefined index:  skills C:\AppServ\www\qiuzudui\Lib\Action\ProfileAction.class.php 第 189 行.
+SQL: SHOW COLUMNS FROM `think_userability` [ RunTime:0.006912s ]
+NOTIC: [8] Undefined variable: condition C:\AppServ\www\qiuzudui\Lib\Model\UserabilityModel.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `think_ability` [ RunTime:0.006255s ]
+SQL: SELECT * FROM `think_ability` WHERE ( `name` = '' ) LIMIT 1   [ RunTime:0.000958s ]
+SQL: SELECT * FROM `think_ability` WHERE ( `name` = '' ) LIMIT 1   [ RunTime:0.000755s ]
+SQL: SELECT * FROM `think_userability` WHERE ( `user_id` = 17 ) AND ( `ability_id` = 22 ) LIMIT 1   [ RunTime:0.001040s ]
+
+[ 2014-04-20T19:36:47+08:00 ] 127.0.0.1 /qiuzudui/index.php/Profile/changeProfile
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.019025s ]
+INFO: [ route_check ] --END-- [ RunTime:0.019300s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002914s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.006078s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 17 ) LIMIT 1   [ RunTime:0.000811s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.005058s ]
+SQL: UPDATE `think_user` SET `name`='AB社',`email`='605860111@qq.com',`introduction`='小温姑娘问我，为什么领导干部会喜欢民歌歌手，而不是流行歌曲歌手呢？\r\n这其实是几个含义：\r\n高级官员，一般是副部级及以上，50岁到65岁之间的那批人。国家领导人，一般是55岁到70岁之间的人。出生在50年代和60年代初，是大多数你听说过的大领导的背景。\r\n\r\n这批人听着民族唱法长大，到后来民族唱法越来越好听了（当然，本来就站不住，后来基本上近于美声了，就' WHERE ( `id` = 17 ) [ RunTime:0.034943s ]
+NOTIC: [8] Undefined index:  skills C:\AppServ\www\qiuzudui\Lib\Action\ProfileAction.class.php 第 189 行.
+SQL: SHOW COLUMNS FROM `think_userability` [ RunTime:0.004815s ]
+NOTIC: [8] Undefined variable: condition C:\AppServ\www\qiuzudui\Lib\Model\UserabilityModel.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `think_ability` [ RunTime:0.004950s ]
+SQL: SELECT * FROM `think_ability` WHERE ( `name` = '' ) LIMIT 1   [ RunTime:0.000854s ]
+SQL: SELECT * FROM `think_ability` WHERE ( `name` = '' ) LIMIT 1   [ RunTime:0.000680s ]
+SQL: SELECT * FROM `think_userability` WHERE ( `user_id` = 17 ) AND ( `ability_id` = 22 ) LIMIT 1   [ RunTime:0.000890s ]
+
+[ 2014-04-20T19:37:14+08:00 ] 127.0.0.1 /qiuzudui/index.php/Profile/changeProfile
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004653s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005015s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002344s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.077301s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 17 ) LIMIT 1   [ RunTime:0.000872s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.007827s ]
+SQL: UPDATE `think_user` SET `name`='AB社',`email`='605860111@qq.com',`introduction`='小温姑娘问我，为什么领导干部会喜欢民歌歌手，而不是流行歌曲歌手呢？\r\n这其实是几个含义：\r\n高级官员，一般是副部级及以上，50岁到65岁之间的那批人。国家领导人，一般是55岁到70岁之间的人。出生在50年代和60年代初，是大多数你听说过的大领导的背景。\r\n\r\n这批人听着民族唱法长大，到后来民族唱法越来越好听了（当然，本来就站不住，后来基本上近于美声了，就' WHERE ( `id` = 17 ) [ RunTime:0.030794s ]
+NOTIC: [8] Undefined index:  skills C:\AppServ\www\qiuzudui\Lib\Action\ProfileAction.class.php 第 189 行.
+SQL: SHOW COLUMNS FROM `think_userability` [ RunTime:0.006540s ]
+NOTIC: [8] Undefined variable: condition C:\AppServ\www\qiuzudui\Lib\Model\UserabilityModel.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `think_ability` [ RunTime:0.006160s ]
+SQL: SELECT * FROM `think_ability` WHERE ( `name` = '' ) LIMIT 1   [ RunTime:0.001378s ]
+SQL: SELECT * FROM `think_ability` WHERE ( `name` = '' ) LIMIT 1   [ RunTime:0.001379s ]
+SQL: SELECT * FROM `think_userability` WHERE ( `user_id` = 17 ) AND ( `ability_id` = 22 ) LIMIT 1   [ RunTime:0.000925s ]
+
+[ 2014-04-20T19:37:33+08:00 ] 127.0.0.1 /qiuzudui/index.php/Profile/changeProfile
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003644s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004033s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002631s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.006186s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 17 ) LIMIT 1   [ RunTime:0.000760s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.005411s ]
+SQL: UPDATE `think_user` SET `name`='AB社',`email`='605860111@qq.com',`introduction`='a小温姑娘问我，为什么领导干部会喜欢民歌歌手，而不是流行歌曲歌手呢？\r\n这其实是几个含义：\r\n高级官员，一般是副部级及以上，50岁到65岁之间的那批人。国家领导人，一般是55岁到70岁之间的人。出生在50年代和60年代初，是大多数你听说过的大领导的背景。\r\n\r\n这批人听着民族唱法长大，到后来民族唱法越来越好听了（当然，本来就站不住，后来基本上近于美声了，就' WHERE ( `id` = 17 ) [ RunTime:0.035416s ]
+NOTIC: [8] Undefined index:  skills C:\AppServ\www\qiuzudui\Lib\Action\ProfileAction.class.php 第 189 行.
+SQL: SHOW COLUMNS FROM `think_userability` [ RunTime:0.005235s ]
+NOTIC: [8] Undefined variable: condition C:\AppServ\www\qiuzudui\Lib\Model\UserabilityModel.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `think_ability` [ RunTime:0.024789s ]
+SQL: SELECT * FROM `think_ability` WHERE ( `name` = '' ) LIMIT 1   [ RunTime:0.000696s ]
+SQL: SELECT * FROM `think_ability` WHERE ( `name` = '' ) LIMIT 1   [ RunTime:0.000604s ]
+SQL: SELECT * FROM `think_userability` WHERE ( `user_id` = 17 ) AND ( `ability_id` = 22 ) LIMIT 1   [ RunTime:0.000783s ]
+
+[ 2014-04-20T19:37:57+08:00 ] 127.0.0.1 /qiuzudui/index.php/Profile/changeProfile
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005167s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005519s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006717s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.027842s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 17 ) LIMIT 1   [ RunTime:0.000926s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.008266s ]
+SQL: UPDATE `think_user` SET `name`='AB社',`email`='605860111@qq.com',`introduction`='a小温姑娘问我，为什么领导干部会喜欢民歌歌手，而不是流行歌曲歌手呢？\r\n这其实是几个含义：\r\n高级官员，一般是副部级及以上，50岁到65岁之间的那批人。国家领导人，一般是55岁到70岁之间的人。出生在50年代和60年代初，是大多数你听说过的大领导的背景。\r\n\r\n这批人听着民族唱法长大，到后来民族唱法越来越好听了（当然，本来就站不住，后来基本上近于美声了，就' WHERE ( `id` = 17 ) [ RunTime:0.028808s ]
+NOTIC: [8] Undefined index:  skills C:\AppServ\www\qiuzudui\Lib\Action\ProfileAction.class.php 第 189 行.
+SQL: SHOW COLUMNS FROM `think_userability` [ RunTime:0.006153s ]
+NOTIC: [8] Undefined variable: condition C:\AppServ\www\qiuzudui\Lib\Model\UserabilityModel.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `think_ability` [ RunTime:0.006639s ]
+SQL: SELECT * FROM `think_ability` WHERE ( `name` = '' ) LIMIT 1   [ RunTime:0.000804s ]
+SQL: SELECT * FROM `think_ability` WHERE ( `name` = '' ) LIMIT 1   [ RunTime:0.000729s ]
+SQL: SELECT * FROM `think_userability` WHERE ( `user_id` = 17 ) AND ( `ability_id` = 22 ) LIMIT 1   [ RunTime:0.000870s ]
+
+[ 2014-04-20T19:38:13+08:00 ] 127.0.0.1 /qiuzudui/index.php/Profile/changeProfile
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.006355s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006855s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005275s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.006961s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 17 ) LIMIT 1   [ RunTime:0.000966s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.006878s ]
+SQL: UPDATE `think_user` SET `name`='AB社',`email`='605860111@qq.com',`introduction`='a小温姑娘问我，为什么领导干部会喜欢民歌歌手，而不是流行歌曲歌手呢？\r\n这其实是几个含义：\r\n高级官员，一般是副部级及以上，50岁到65岁之间的那批人。国家领导人，一般是55岁到70岁之间的人。出生在50年代和60年代初，是大多数你听说过的大领导的背景。\r\n\r\n这批人听着民族唱法长大，到后来民族唱法越来越好听了（当然，本来就站不住，后来基本上近于美声了，就' WHERE ( `id` = 17 ) [ RunTime:0.044908s ]
+NOTIC: [8] Undefined index:  skills C:\AppServ\www\qiuzudui\Lib\Action\ProfileAction.class.php 第 189 行.
+SQL: SHOW COLUMNS FROM `think_userability` [ RunTime:0.007613s ]
+NOTIC: [8] Undefined variable: condition C:\AppServ\www\qiuzudui\Lib\Model\UserabilityModel.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `think_ability` [ RunTime:0.006858s ]
+SQL: SELECT * FROM `think_ability` WHERE ( `name` = '' ) LIMIT 1   [ RunTime:0.000892s ]
+SQL: SELECT * FROM `think_ability` WHERE ( `name` = '' ) LIMIT 1   [ RunTime:0.000803s ]
+SQL: SELECT * FROM `think_userability` WHERE ( `user_id` = 17 ) AND ( `ability_id` = 22 ) LIMIT 1   [ RunTime:0.000899s ]
+
+[ 2014-04-20T19:39:00+08:00 ] 127.0.0.1 /qiuzudui/index.php/Profile/changeProfile
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005276s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005621s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003491s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.017863s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 17 ) LIMIT 1   [ RunTime:0.001182s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.006472s ]
+SQL: UPDATE `think_user` SET `name`='AB社',`email`='605860111@qq.com',`introduction`='c小温姑娘问我，为什么领导干部会喜欢民歌歌手，而不是流行歌曲歌手呢？\r\n这其实是几个含义：\r\n高级官员，一般是副部级及以上，50岁到65岁之间的那批人。国家领导人，一般是55岁到70岁之间的人。出生在50年代和60年代初，是大多数你听说过的大领导的背景。\r\n\r\n这批人听着民族唱法长大，到后来民族唱法越来越好听了（当然，本来就站不住，后来基本上近于美声了，就' WHERE ( `id` = 17 ) [ RunTime:0.031347s ]
+NOTIC: [8] Undefined index:  skills C:\AppServ\www\qiuzudui\Lib\Action\ProfileAction.class.php 第 189 行.
+SQL: SHOW COLUMNS FROM `think_userability` [ RunTime:0.006045s ]
+NOTIC: [8] Undefined variable: condition C:\AppServ\www\qiuzudui\Lib\Model\UserabilityModel.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `think_ability` [ RunTime:0.006257s ]
+SQL: SELECT * FROM `think_ability` WHERE ( `name` = '' ) LIMIT 1   [ RunTime:0.001271s ]
+SQL: SELECT * FROM `think_ability` WHERE ( `name` = '' ) LIMIT 1   [ RunTime:0.000833s ]
+SQL: SELECT * FROM `think_userability` WHERE ( `user_id` = 17 ) AND ( `ability_id` = 22 ) LIMIT 1   [ RunTime:0.000986s ]
+
+[ 2014-04-20T19:39:22+08:00 ] 127.0.0.1 /qiuzudui/index.php/Profile/changeProfile
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002918s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003241s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001954s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002231s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.007448s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 17 ) LIMIT 1   [ RunTime:0.000871s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.006986s ]
+SQL: UPDATE `think_user` SET `name`='AB社',`email`='605860111@qq.com',`introduction`='a小温姑娘问我，为什么领导干部会喜欢民歌歌手，而不是流行歌曲歌手呢？\r<br/>这其实是几个含义：\r<br/>高级官员，一般是副部级及以上，50岁到65岁之间的那批人。国家领导人，一般是55岁到70岁之间的人。出生在50年代和60年代初，是大多数你听说过的大领导的背景。\r<br/>\r<br/>这批人听着民族唱法长大，到后来民族唱法越来越好听了（当然，本来就站不住，后来基本上近于美声了，就' WHERE ( `id` = 17 ) [ RunTime:0.059632s ]
+NOTIC: [8] Undefined index:  skills C:\AppServ\www\qiuzudui\Lib\Action\ProfileAction.class.php 第 189 行.
+SQL: SHOW COLUMNS FROM `think_userability` [ RunTime:0.006580s ]
+NOTIC: [8] Undefined variable: condition C:\AppServ\www\qiuzudui\Lib\Model\UserabilityModel.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `think_ability` [ RunTime:0.006687s ]
+SQL: SELECT * FROM `think_ability` WHERE ( `name` = '' ) LIMIT 1   [ RunTime:0.000870s ]
+SQL: SELECT * FROM `think_ability` WHERE ( `name` = '' ) LIMIT 1   [ RunTime:0.000752s ]
+SQL: SELECT * FROM `think_userability` WHERE ( `user_id` = 17 ) AND ( `ability_id` = 22 ) LIMIT 1   [ RunTime:0.000870s ]
+
+[ 2014-04-20T19:39:34+08:00 ] 127.0.0.1 /qiuzudui/index.php/Profile/changeProfile
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003525s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003865s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002321s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.005161s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 17 ) LIMIT 1   [ RunTime:0.002761s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.005269s ]
+SQL: UPDATE `think_user` SET `name`='AB社',`email`='605860111@qq.com',`introduction`='a小温姑娘问我，为什么领导干部会喜欢民歌歌手，而不是流行歌曲歌手呢？\r<br/>这其实是几个含义：\r<br/>高级官员，一般是副部级及以上，50岁到65岁之间的那批人。国家领导人，一般是55岁到70岁之间的人。出生在50年代和60年代初，是大多数你听说过的大领导的背景。\r<br/>这批人听着民族唱法长大，到后来民族唱法越来越好听了（当然，本来就站不住，后来基本上近于美声了，就' WHERE ( `id` = 17 ) [ RunTime:0.063373s ]
+NOTIC: [8] Undefined index:  skills C:\AppServ\www\qiuzudui\Lib\Action\ProfileAction.class.php 第 189 行.
+SQL: SHOW COLUMNS FROM `think_userability` [ RunTime:0.004912s ]
+NOTIC: [8] Undefined variable: condition C:\AppServ\www\qiuzudui\Lib\Model\UserabilityModel.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `think_ability` [ RunTime:0.005459s ]
+SQL: SELECT * FROM `think_ability` WHERE ( `name` = '' ) LIMIT 1   [ RunTime:0.000741s ]
+SQL: SELECT * FROM `think_ability` WHERE ( `name` = '' ) LIMIT 1   [ RunTime:0.000602s ]
+SQL: SELECT * FROM `think_userability` WHERE ( `user_id` = 17 ) AND ( `ability_id` = 22 ) LIMIT 1   [ RunTime:0.000671s ]
+
+[ 2014-04-20T19:40:00+08:00 ] 127.0.0.1 /qiuzudui/index.php/Profile/changeProfile
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002421s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002862s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002426s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.005385s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 17 ) LIMIT 1   [ RunTime:0.000854s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.007503s ]
+SQL: UPDATE `think_user` SET `name`='AB社',`email`='605860111@qq.com',`introduction`='a小温姑娘问我，为什么领导干部会喜欢民歌歌手，而不是流行歌曲歌手呢？<br /><br/>这其实是几个含义：<br /><br/>高级官员，一般是副部级及以上，50岁到65岁之间的那批人。国家领导人，一般是55岁到70岁之间的人。出生在50年代和60年代初，是大多数你听说过的大领导的背景。<br /><br/>这批人听着民族唱法长大，到后来民族唱法越来越好听了（当然，本来就站不住，后来基本上近于美声了，就' WHERE ( `id` = 17 ) [ RunTime:0.069500s ]
+NOTIC: [8] Undefined index:  skills C:\AppServ\www\qiuzudui\Lib\Action\ProfileAction.class.php 第 189 行.
+SQL: SHOW COLUMNS FROM `think_userability` [ RunTime:0.006027s ]
+NOTIC: [8] Undefined variable: condition C:\AppServ\www\qiuzudui\Lib\Model\UserabilityModel.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `think_ability` [ RunTime:0.004844s ]
+SQL: SELECT * FROM `think_ability` WHERE ( `name` = '' ) LIMIT 1   [ RunTime:0.001069s ]
+SQL: SELECT * FROM `think_ability` WHERE ( `name` = '' ) LIMIT 1   [ RunTime:0.001553s ]
+SQL: SELECT * FROM `think_userability` WHERE ( `user_id` = 17 ) AND ( `ability_id` = 22 ) LIMIT 1   [ RunTime:0.000908s ]
+
+[ 2014-04-20T19:40:33+08:00 ] 127.0.0.1 /qiuzudui/index.php/Profile/changeProfile
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002939s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003267s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002261s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.007305s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 17 ) LIMIT 1   [ RunTime:0.000986s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.007273s ]
+SQL: UPDATE `think_user` SET `name`='AB社',`email`='605860111@qq.com',`introduction`='a小温姑娘问我，为什么领导干部会喜欢民歌歌手，而不是流行歌曲歌手呢？<br/>这其实是几个含义：<br/>高级官员，一般是副部级及以上，50岁到65岁之间的那批人。国家领导人，一般是55岁到70岁之间的人。出生在50年代和60年代初，是大多数你听说过的大领导的背景。<br/>这批人听着民族唱法长大，到后来民族唱法越来越好听了（当然，本来就站不住，后来基本上近于美声了，就' WHERE ( `id` = 17 ) [ RunTime:0.033010s ]
+NOTIC: [8] Undefined index:  skills C:\AppServ\www\qiuzudui\Lib\Action\ProfileAction.class.php 第 189 行.
+SQL: SHOW COLUMNS FROM `think_userability` [ RunTime:0.006726s ]
+NOTIC: [8] Undefined variable: condition C:\AppServ\www\qiuzudui\Lib\Model\UserabilityModel.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `think_ability` [ RunTime:0.006932s ]
+SQL: SELECT * FROM `think_ability` WHERE ( `name` = '' ) LIMIT 1   [ RunTime:0.000856s ]
+SQL: SELECT * FROM `think_ability` WHERE ( `name` = '' ) LIMIT 1   [ RunTime:0.000773s ]
+SQL: SELECT * FROM `think_userability` WHERE ( `user_id` = 17 ) AND ( `ability_id` = 22 ) LIMIT 1   [ RunTime:0.001399s ]
+
+[ 2014-04-20T19:41:25+08:00 ] 127.0.0.1 /qiuzudui/index.php/Profile/changeProfile
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003680s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003956s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003253s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.005985s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 17 ) LIMIT 1   [ RunTime:0.000831s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.005271s ]
+SQL: UPDATE `think_user` SET `name`='AB社',`email`='605860111@qq.com',`introduction`='a小温姑娘问我，为什么领导干部会喜欢民歌歌手，而不是流行歌曲歌手呢？<br/>这其实是几个含义：<br/>高级官员，一般是副部级及以上，50岁到65岁之间的那批人。国家领导人，一般是55岁到70岁之间的人。出生在50年代和60年代初，是大多数你听说过的大领导的背景。<br/>这批人听着民族唱法长大，到后来民族唱法越来越好听了（当然，本来就站不住，后来基本上近于美声了，就' WHERE ( `id` = 17 ) [ RunTime:0.087097s ]
+NOTIC: [8] Undefined index:  skills C:\AppServ\www\qiuzudui\Lib\Action\ProfileAction.class.php 第 187 行.
+SQL: SHOW COLUMNS FROM `think_userability` [ RunTime:0.005189s ]
+NOTIC: [8] Undefined variable: condition C:\AppServ\www\qiuzudui\Lib\Model\UserabilityModel.class.php 第 34 行.
+SQL: SHOW COLUMNS FROM `think_ability` [ RunTime:0.004765s ]
+SQL: SELECT * FROM `think_ability` WHERE ( `name` = '' ) LIMIT 1   [ RunTime:0.000687s ]
+SQL: SELECT * FROM `think_ability` WHERE ( `name` = '' ) LIMIT 1   [ RunTime:0.000635s ]
+SQL: SELECT * FROM `think_userability` WHERE ( `user_id` = 17 ) AND ( `ability_id` = 22 ) LIMIT 1   [ RunTime:0.000771s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003260s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003488s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.049977s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050250s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002557s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002400s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001810s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002391s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009780s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003305s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003535s ]
+
+[ 2014-04-20T19:41:27+08:00 ] 127.0.0.1 /qiuzudui/index.php/Profile/profile_society
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004199s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004542s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002576s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.007452s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 17 ) LIMIT 1   [ RunTime:0.001535s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003046s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003355s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: success C:\AppServ\www\qiuzudui\Runtime\Cache\8f763adf0c93f12faf94bb1133e2dc7a.php 第 14 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.072337s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072597s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001474s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001297s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000989s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001711s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006154s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002101s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002529s ]
+
+[ 2014-04-20T19:41:29+08:00 ] 127.0.0.1 /qiuzudui/index.php/Profile/info
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003462s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003806s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002232s ]
+
+[ 2014-04-20T19:41:29+08:00 ] 127.0.0.1 /qiuzudui/index.php/Profile/info_society
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002495s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002756s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002125s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.005327s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 17 ) LIMIT 1   [ RunTime:0.000744s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002222s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002426s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.032700s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032944s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001070s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001038s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000713s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001206s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004564s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001566s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001747s ]
+
+[ 2014-04-20T19:43:38+08:00 ] 127.0.0.1 /qiuzudui/index.php/Activity/activity_society
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.020994s ]
+INFO: [ route_check ] --END-- [ RunTime:0.021354s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.016288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016708s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.011633s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 17 ) LIMIT 1   [ RunTime:0.000995s ]
+SQL: SHOW COLUMNS FROM `think_activity` [ RunTime:0.006825s ]
+SQL: SHOW COLUMNS FROM `think_activity` [ RunTime:0.007219s ]
+SQL: SELECT * FROM `think_activity` WHERE ( `host_id` = 17 )  [ RunTime:0.021828s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.057417s ]
+INFO: [ view_template ] --END-- [ RunTime:0.057747s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.150298s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.150694s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.020016s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.008808s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.003744s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.014612s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.048057s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.008965s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009256s ]
+
+[ 2014-04-20T19:43:41+08:00 ] 127.0.0.1 /qiuzudui/index.php/Activity/editActivity?ac_id=29
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002963s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003273s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002144s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.029621s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 17 ) LIMIT 1   [ RunTime:0.001153s ]
+SQL: SHOW COLUMNS FROM `think_activity` [ RunTime:0.007130s ]
+SQL: SELECT * FROM `think_activity` WHERE ( `id` = 29 ) LIMIT 1   [ RunTime:0.001020s ]
+SQL: SHOW COLUMNS FROM `think_activity` [ RunTime:0.006506s ]
+SQL: SELECT * FROM `think_activity` WHERE ( `id` = 29 ) LIMIT 1   [ RunTime:0.000992s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.007049s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 17 ) LIMIT 1   [ RunTime:0.000966s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.018604s ]
+INFO: [ view_template ] --END-- [ RunTime:0.019024s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.104317s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.104756s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001614s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001627s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000921s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001720s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006707s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002245s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002501s ]
+

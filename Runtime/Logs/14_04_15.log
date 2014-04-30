@@ -1,0 +1,2480 @@
+[ 2014-04-15T09:56:00+08:00 ] ERR: [1] Maximum execution time of 30 seconds exceeded C:\AppServ\www\qiuzudui\ThinkPHP\Lib\Behavior\TokenBuildBehavior.class.php 第 12 行.
+[ 2014-04-15T09:56:45+08:00 ] 127.0.0.1 /qiuzudui/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.033924s ]
+INFO: [ route_check ] --END-- [ RunTime:0.034216s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003098s ]
+NOTIC: [8] Undefined index:  user C:\AppServ\www\qiuzudui\Lib\Action\IndexAction.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_activity` [ RunTime:0.005174s ]
+SQL: SELECT * FROM `think_activity`  [ RunTime:0.000651s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.012172s ]
+INFO: [ view_template ] --END-- [ RunTime:0.012419s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.137419s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.137661s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003780s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.004094s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.018386s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.007104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.034009s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.024503s ]
+INFO: [ view_end ] --END-- [ RunTime:0.024711s ]
+
+[ 2014-04-15T09:57:01+08:00 ] 127.0.0.1 /qiuzudui/index.php/Register/register
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.006123s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006394s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.011947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012213s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004458s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004712s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.253537s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.253789s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.004135s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002465s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.004444s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002681s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014332s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002913s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003242s ]
+
+[ 2014-04-15T09:57:18+08:00 ] 127.0.0.1 /qiuzudui/index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002470s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002708s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001787s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.309184s ]
+SQL: SELECT * FROM `think_user` WHERE ( `email` = 'zhengszh3@gmail.com' ) AND ( `password` = 'flashman1994' ) LIMIT 1   [ RunTime:0.262904s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.009263s ]
+INFO: [ view_template ] --END-- [ RunTime:0.009475s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.128284s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.128521s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000907s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000964s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000704s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001351s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004416s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001855s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002042s ]
+
+[ 2014-04-15T09:57:36+08:00 ] 127.0.0.1 /qiuzudui/index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005600s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006116s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003020s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.006081s ]
+SQL: SELECT * FROM `think_user` WHERE ( `email` = 'zhengszh0@gmail.com' ) AND ( `password` = 'flashman1994' ) LIMIT 1   [ RunTime:0.002152s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003618s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003947s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.066332s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066589s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002392s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.004151s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002278s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.007237s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016686s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003150s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003526s ]
+
+[ 2014-04-15T09:58:14+08:00 ] 127.0.0.1 /qiuzudui/index.php/Register/societyRegister
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003098s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003546s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.007357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007675s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.059310s ]
+SQL: SELECT * FROM `think_user` WHERE ( `email` = 'zhengszh3@gmail.com' )  [ RunTime:0.002156s ]
+SQL: SELECT * FROM `think_user` WHERE ( `name` = 'AB社' )  [ RunTime:0.025950s ]
+SQL: INSERT INTO `think_user` (`name`,`email`,`user_type`,`password`,`introduction`,`weibo`,`wechat`,`major`,`gender`,`grade`,`photo`) VALUES ('AB社','zhengszh3@gmail.com',1,'flashman1994','','','','','',0,'defaultSociety.png') [ RunTime:0.101323s ]
+
+[ 2014-04-15T09:58:14+08:00 ] 127.0.0.1 /qiuzudui/index.php/Index/index_society
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004751s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005019s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005201s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.005313s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000758s ]
+SQL: SHOW COLUMNS FROM `think_activity` [ RunTime:0.007140s ]
+SQL: SELECT * FROM `think_activity`  [ RunTime:0.000720s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.025399s ]
+INFO: [ view_template ] --END-- [ RunTime:0.025639s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.112214s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.112546s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001415s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001644s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001042s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001617s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006330s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002362s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002583s ]
+
+[ 2014-04-15T09:58:33+08:00 ] 127.0.0.1 /qiuzudui/index.php/Login/logout
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003795s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004226s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.005618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005893s ]
+
+[ 2014-04-15T09:58:33+08:00 ] 127.0.0.1 /qiuzudui/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.009019s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010013s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002380s ]
+NOTIC: [8] Undefined index:  user C:\AppServ\www\qiuzudui\Lib\Action\IndexAction.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_activity` [ RunTime:0.005817s ]
+SQL: SELECT * FROM `think_activity`  [ RunTime:0.000550s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001403s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001597s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.054242s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054475s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001377s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001045s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000806s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001451s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005412s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001592s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001764s ]
+
+[ 2014-04-15T09:59:12+08:00 ] 127.0.0.1 /qiuzudui/index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.006286s ]
+INFO: [ route_check ] --END-- [ RunTime:0.014958s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.007993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008342s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.013388s ]
+SQL: SELECT * FROM `think_user` WHERE ( `email` = 'zhengszh1@gmail.com' ) AND ( `password` = 'flashman1994' ) LIMIT 1   [ RunTime:0.000902s ]
+
+[ 2014-04-15T09:59:12+08:00 ] 127.0.0.1 /qiuzudui/index.php/Index/index_society
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003979s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004267s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004966s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.021204s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000756s ]
+SQL: SHOW COLUMNS FROM `think_activity` [ RunTime:0.016719s ]
+SQL: SELECT * FROM `think_activity`  [ RunTime:0.000643s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003638s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003857s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.345141s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.348687s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003307s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002944s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002080s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003307s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012694s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.005791s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006005s ]
+
+[ 2014-04-15T09:59:16+08:00 ] 127.0.0.1 /qiuzudui/index.php/Profile/info
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005928s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006286s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002452s ]
+
+[ 2014-04-15T09:59:16+08:00 ] 127.0.0.1 /qiuzudui/index.php/Profile/info_society
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003118s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003460s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002248s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.009102s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000700s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004884s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005131s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.052202s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052485s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001383s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001081s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000711s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003738s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007517s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001910s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002172s ]
+
+[ 2014-04-15T09:59:19+08:00 ] 127.0.0.1 /qiuzudui/index.php/Profile
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005607s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005857s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001854s ]
+
+[ 2014-04-15T09:59:19+08:00 ] 127.0.0.1 /qiuzudui/index.php/Profile/profile_society
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002386s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002672s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001742s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.004372s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000593s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001946s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002137s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.038790s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039003s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002621s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000993s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000884s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006259s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002055s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002249s ]
+
+[ 2014-04-15T09:59:29+08:00 ] 127.0.0.1 /qiuzudui/index.php/Profile/changeProfile
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004290s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004594s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003668s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.005316s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.003371s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003783s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004045s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.066712s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066964s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002675s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.004097s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002691s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002777s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012890s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.004712s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004992s ]
+
+[ 2014-04-15T10:00:03+08:00 ] 127.0.0.1 /qiuzudui/index.php/Profile/changeProfile
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003789s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004184s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002933s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.043197s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000953s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.041323s ]
+SQL: UPDATE `think_user` SET `photo`='534c92a202bb5.jpg' WHERE ( `id` = 2 ) [ RunTime:0.556229s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004074s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004541s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.074121s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074367s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000992s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000957s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000648s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004236s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001716s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001887s ]
+SQL: UPDATE `think_user` SET `name`='BC社' WHERE ( `id` = 2 ) [ RunTime:0.022991s ]
+NOTIC: [8] Undefined index:  skills C:\AppServ\www\qiuzudui\Lib\Action\ProfileAction.class.php 第 185 行.
+SQL: SHOW COLUMNS FROM `think_ability` [ RunTime:0.297623s ]
+SQL: SELECT * FROM `think_ability` WHERE ( `name` = '' ) LIMIT 1   [ RunTime:0.000690s ]
+SQL: SHOW COLUMNS FROM `think_ability` [ RunTime:0.022211s ]
+SQL: INSERT INTO `think_ability` (`name`) VALUES ('') [ RunTime:0.046656s ]
+SQL: SELECT * FROM `think_ability` WHERE ( `name` = '' ) LIMIT 1   [ RunTime:0.000724s ]
+SQL: SHOW COLUMNS FROM `think_userability` [ RunTime:0.096085s ]
+SQL: SELECT * FROM `think_userability` WHERE ( `user_id` = 2 ) AND ( `ability_id` = 14 ) LIMIT 1   [ RunTime:0.043815s ]
+SQL: SHOW COLUMNS FROM `think_userability` [ RunTime:0.049707s ]
+SQL: INSERT INTO `think_userability` (`user_id`,`ability_id`) VALUES (2,14) [ RunTime:0.056264s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000277s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.746612s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010722s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.672636s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000146s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000144s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000036s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000166s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.679316s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000097s ]
+INFO: [ view_end ] --END-- [ RunTime:-0.678256s ]
+
+[ 2014-04-15T10:00:05+08:00 ] 127.0.0.1 /qiuzudui/index.php/Profile/profile_society
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.009808s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010163s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.005007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005358s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.013305s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000969s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004436s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004710s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.061528s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061845s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001405s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001671s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.006589s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013597s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002714s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003011s ]
+
+[ 2014-04-15T10:00:14+08:00 ] 127.0.0.1 /qiuzudui/index.php/Activity/index_postActivity
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002537s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002870s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002013s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.005075s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.002600s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003995s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004210s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.091796s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.092025s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001040s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001399s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000801s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.005486s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009294s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001866s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002065s ]
+
+[ 2014-04-15T10:02:40+08:00 ] 127.0.0.1 /qiuzudui/index.php/Activity/postActivity
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.014367s ]
+INFO: [ route_check ] --END-- [ RunTime:0.014873s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.007455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007899s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.007032s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000848s ]
+SQL: SHOW COLUMNS FROM `think_activity` [ RunTime:0.019909s ]
+SQL: INSERT INTO `think_activity` (`name`,`start_date`,`end_date`,`deadline`,`size_lowbound`,`size_uppbound`,`introduction`,`create_date`,`host_id`,`applyForm`,`poster`) VALUES ('2号比赛','01 April 2014 - 01:05 am','09 April 2014 - 08:30 am','02 April 2014 - 09:30 am',2,4,'分V迷女耐磨性差吗密码呢女把车开走咯自从欧婆婆敷面膜捉迷藏了龙之梦充满了捉迷藏密密麻麻拉大米的拉大面对嘛对嘛拉拉刺客联盟从欧洲盲从招财猫总OCP走走走出租车酷派张卡片充值卡赔偿款真可怕传照片触控屏止咳平喘','15 April 2014 - 10:2',2,'534c934011d62.doc','534c934012b30.png') [ RunTime:0.096100s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003333s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003545s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.031810s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032061s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.004596s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003038s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.004580s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014859s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003534s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003755s ]
+
+[ 2014-04-15T10:02:41+08:00 ] 127.0.0.1 /qiuzudui/index.php/Activity/index_postActivity
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005064s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005338s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001944s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.007663s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000595s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003759s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003959s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.044754s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044968s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000993s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000910s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000621s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001496s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004485s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001424s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001591s ]
+
+[ 2014-04-15T10:02:46+08:00 ] 127.0.0.1 /qiuzudui/index.php/Login/logout
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.007153s ]
+INFO: [ route_check ] --END-- [ RunTime:0.007499s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002898s ]
+
+[ 2014-04-15T10:02:46+08:00 ] 127.0.0.1 /qiuzudui/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003994s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004347s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002143s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002433s ]
+NOTIC: [8] Undefined index:  user C:\AppServ\www\qiuzudui\Lib\Action\IndexAction.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_activity` [ RunTime:0.031577s ]
+SQL: SELECT * FROM `think_activity`  [ RunTime:0.000880s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002932s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003224s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.070472s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073220s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001577s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001263s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000878s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003617s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007953s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.004435s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004655s ]
+
+[ 2014-04-15T10:03:01+08:00 ] 127.0.0.1 /qiuzudui/index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.006173s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006518s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002315s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.016106s ]
+SQL: SELECT * FROM `think_user` WHERE ( `email` = 'zhengszh3@gmail.com' ) AND ( `password` = 'flashman1994' ) LIMIT 1   [ RunTime:0.000992s ]
+
+[ 2014-04-15T10:03:02+08:00 ] 127.0.0.1 /qiuzudui/index.php/Index/index_society
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.006305s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006643s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002300s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.010271s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.003162s ]
+SQL: SHOW COLUMNS FROM `think_activity` [ RunTime:0.009945s ]
+SQL: SELECT * FROM `think_activity`  [ RunTime:0.003238s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002927s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003261s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.092914s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093281s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001412s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001318s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001082s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003310s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007963s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002141s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002380s ]
+
+[ 2014-04-15T10:04:06+08:00 ] 127.0.0.1 /qiuzudui/index.php/Activity/index_postActivity
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003509s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003805s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003716s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.006106s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000955s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.006459s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006782s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.046141s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046419s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002475s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002904s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001980s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002429s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010434s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002897s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003111s ]
+
+[ 2014-04-15T10:05:05+08:00 ] 127.0.0.1 /qiuzudui/index.php/Activity/postActivity
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003430s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003804s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002786s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.008833s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.001010s ]
+SQL: SHOW COLUMNS FROM `think_activity` [ RunTime:0.005279s ]
+SQL: INSERT INTO `think_activity` (`name`,`start_date`,`end_date`,`deadline`,`size_lowbound`,`size_uppbound`,`introduction`,`create_date`,`host_id`,`applyForm`,`poster`) VALUES ('3号比赛','08 April 2014 - 07:25 am','02 April 2014 - 02:05 am','16 April 2014 - 04:50 pm',3,6,'Maximum execution time of 30 seconds exceeded解决错误 ...\r\ncybersingle.blog.hexun.com/16735353_d.html‎\r\n2008年1月29日 - Fatal error: Maximum execution time of 30 seconds exceeded 出现这个错误如何解决去哪里可以设置最大执行时间. 办法： 修改php.ini:\r\n关于“Maximum execution time of 30 seconds exceeded”错误 ...\r\nlxy.me › 编程开发 › 编程语言 › PHP‎\r\n2011年10月27日 - 有时在运行大型网站或百万级的数据时优化得不好会出来如Fatal error: Maximum execution time of 30 seconds exceeded in错误提供了了。那么这 ...','15 April 2014 - 10:5',13,'534c93d18b743.doc','534c93d18ba53.png') [ RunTime:0.054848s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002668s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002900s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.026173s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026511s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002135s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001243s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000890s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003817s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008706s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001820s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002029s ]
+
+[ 2014-04-15T10:05:07+08:00 ] 127.0.0.1 /qiuzudui/index.php/Activity/index_postActivity
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002752s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001915s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.007855s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000714s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001190s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001451s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.037217s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037439s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003746s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001301s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001126s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001224s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008020s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001588s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001773s ]
+
+[ 2014-04-15T10:06:20+08:00 ] 127.0.0.1 /qiuzudui/index.php/Activity/postActivity
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.007395s ]
+INFO: [ route_check ] --END-- [ RunTime:0.007739s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003970s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.019577s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.001012s ]
+SQL: SHOW COLUMNS FROM `think_activity` [ RunTime:0.592182s ]
+SQL: INSERT INTO `think_activity` (`name`,`start_date`,`end_date`,`deadline`,`size_lowbound`,`size_uppbound`,`introduction`,`create_date`,`host_id`,`applyForm`,`poster`) VALUES ('4号比赛','08 April 2014 - 08:25 am','18 April 2014 - 10:35 am','15 April 2014 - 10:05 am',2,3,'达到了卡机哦对就AMD哦啊摩登猫嬷嬷判断码怕没电匹马判断码怕没电怕买票','15 April 2014 - 10:6',13,'534c941c1d6c9.doc','534c941c1dfcd.png') [ RunTime:0.041629s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003601s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003908s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.057902s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058244s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003258s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002881s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002670s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003150s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012788s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.004718s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005003s ]
+
+[ 2014-04-15T10:06:24+08:00 ] 127.0.0.1 /qiuzudui/index.php/Activity/index_postActivity
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002298s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002540s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001614s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.007046s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.001130s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003155s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003434s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.116750s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.117060s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001439s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.008147s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001164s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001997s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013632s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002331s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002727s ]
+
+[ 2014-04-15T10:07:36+08:00 ] 127.0.0.1 /qiuzudui/index.php/Activity/postActivity
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.008398s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008959s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004859s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.008692s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.001342s ]
+SQL: SHOW COLUMNS FROM `think_activity` [ RunTime:0.007299s ]
+SQL: INSERT INTO `think_activity` (`name`,`start_date`,`end_date`,`deadline`,`size_lowbound`,`size_uppbound`,`introduction`,`create_date`,`host_id`,`applyForm`,`poster`) VALUES ('5号比赛','16 April 2014 - 10:30 am','10 April 2014 - 09:50 am','16 April 2014 - 05:50 pm',4,7,'钱万和佛网念佛我南磨房PM我方面我拼命佛牌望风披靡外婆嘲讽屌丝张PVC喷水池昆仑山库存少开车PSP阿卡【的【安迪【奥康达【','15 April 2014 - 10:7',13,'534c946898108.doc','534c94689840a.png') [ RunTime:0.024287s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.005148s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005548s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.054052s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054308s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002523s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002161s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001844s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010450s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.004322s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004687s ]
+
+[ 2014-04-15T10:07:38+08:00 ] 127.0.0.1 /qiuzudui/index.php/Activity/index_postActivity
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004336s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004717s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003029s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.007258s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000980s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.006301s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006825s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.060450s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060789s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.007177s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001392s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000897s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001606s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011807s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002026s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002299s ]
+
+[ 2014-04-15T10:07:50+08:00 ] 127.0.0.1 /qiuzudui/index.php/Activity/activity_society
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004403s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004743s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002883s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.008297s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.001182s ]
+SQL: SHOW COLUMNS FROM `think_activity` [ RunTime:0.006598s ]
+SQL: SHOW COLUMNS FROM `think_activity` [ RunTime:0.008846s ]
+SQL: SELECT * FROM `think_activity` WHERE ( `host_id` = 13 )  [ RunTime:0.030862s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004030s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004389s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.193557s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.193823s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001229s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001135s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000817s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003941s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007894s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001790s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001997s ]
+
+[ 2014-04-15T10:07:59+08:00 ] 127.0.0.1 /qiuzudui/index.php/Login/logout
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.006096s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006454s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002556s ]
+
+[ 2014-04-15T10:07:59+08:00 ] 127.0.0.1 /qiuzudui/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.006061s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006705s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002902s ]
+NOTIC: [8] Undefined index:  user C:\AppServ\www\qiuzudui\Lib\Action\IndexAction.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_activity` [ RunTime:0.007827s ]
+SQL: SELECT * FROM `think_activity`  [ RunTime:0.001416s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003204s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003750s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.067159s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067435s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001254s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001091s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000775s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001985s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005694s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001893s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002249s ]
+
+[ 2014-04-15T10:08:11+08:00 ] 127.0.0.1 /qiuzudui/index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004522s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005016s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002272s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.009242s ]
+SQL: SELECT * FROM `think_user` WHERE ( `email` = '605860112@qq.com' ) AND ( `password` = 'flashman1994' ) LIMIT 1   [ RunTime:0.000939s ]
+
+[ 2014-04-15T10:08:12+08:00 ] 127.0.0.1 /qiuzudui/index.php/Index/index_personal
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003996s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009447s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002477s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.009805s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000762s ]
+SQL: SHOW COLUMNS FROM `think_activity` [ RunTime:0.007240s ]
+SQL: SELECT * FROM `think_activity`  [ RunTime:0.000724s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.007645s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000650s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.001079s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000543s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000681s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000594s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002539s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002756s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.129437s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.130151s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001270s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.009533s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002944s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.004320s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018748s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002216s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002426s ]
+
+[ 2014-04-15T10:17:16+08:00 ] 127.0.0.1 /qiuzudui/index.php/Team
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003811s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004093s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002927s ]
+SQL: SHOW COLUMNS FROM `think_invitation` [ RunTime:0.156597s ]
+SQL: SELECT * FROM `think_invitation` WHERE ( `invitor_id` = 1 )  [ RunTime:0.002380s ]
+SQL: SELECT * FROM `think_invitation` WHERE ( `invitee_id` = 1 )  [ RunTime:0.000758s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.005330s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000704s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.005279s ]
+SQL: SHOW COLUMNS FROM `think_activity` [ RunTime:0.005577s ]
+SQL: SELECT * FROM `think_activity` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000785s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000700s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000682s ]
+SQL: SELECT * FROM `think_activity` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000816s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\AppServ\www\qiuzudui\Lib\Action\TeamAction.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.005795s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000780s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.006056s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006498s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.060479s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060743s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002347s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002172s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.003641s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002926s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011728s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003909s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004136s ]
+
+[ 2014-04-15T10:17:18+08:00 ] ERR: [4] syntax error, unexpected '=' C:\AppServ\www\qiuzudui\Lib\Action\IndexAction.class.php 第 35 行.
+[ 2014-04-15T10:17:56+08:00 ] 127.0.0.1 /qiuzudui/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003568s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003873s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002089s ]
+
+[ 2014-04-15T10:17:56+08:00 ] 127.0.0.1 /qiuzudui/index.php/Index/index_personal
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005945s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006260s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002294s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.008566s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000986s ]
+SQL: SHOW COLUMNS FROM `think_activity` [ RunTime:0.007681s ]
+SQL: SELECT * FROM `think_activity`  [ RunTime:0.000863s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.007061s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.001033s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000811s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000694s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000827s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.002996s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002591s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002857s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.080119s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080393s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001494s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001609s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001026s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001739s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006527s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002074s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002324s ]
+
+[ 2014-04-15T10:19:31+08:00 ] 127.0.0.1 /qiuzudui/index.php/Index/index_personal
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.008394s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008823s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.006374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006800s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.027811s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000903s ]
+SQL: SHOW COLUMNS FROM `think_activity` [ RunTime:0.011557s ]
+SQL: SELECT * FROM `think_activity`  [ RunTime:0.001838s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.008661s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.001156s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000885s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.001100s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000840s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000826s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004344s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004618s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.128945s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.129262s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003274s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002874s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.008030s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.004378s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019368s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.004166s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004777s ]
+
+[ 2014-04-15T10:23:06+08:00 ] 127.0.0.1 /qiuzudui/index.php/Index/index_personal
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.009593s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009925s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004300s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.006279s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `think_activity` [ RunTime:0.006794s ]
+SQL: SELECT * FROM `think_activity`  [ RunTime:0.000671s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.006213s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.001183s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.002039s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000538s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000507s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000504s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.006372s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006654s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.060140s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060380s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002993s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.011502s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001959s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002258s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019383s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.008679s ]
+INFO: [ view_end ] --END-- [ RunTime:0.008883s ]
+
+[ 2014-04-15T10:23:37+08:00 ] 127.0.0.1 /qiuzudui/index.php/Index/index_personal
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004880s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005234s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004054s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.007719s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000693s ]
+SQL: SHOW COLUMNS FROM `think_activity` [ RunTime:0.009688s ]
+SQL: SELECT * FROM `think_activity`  [ RunTime:0.000739s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.007309s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.002887s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000848s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000604s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000626s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000556s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.007466s ]
+INFO: [ view_template ] --END-- [ RunTime:0.007703s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.060208s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060466s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002324s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003923s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001977s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002381s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011178s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002748s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002937s ]
+
+[ 2014-04-15T10:24:18+08:00 ] 127.0.0.1 /qiuzudui/index.php/Index/index_personal
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.009647s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009889s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002440s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.016039s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000637s ]
+SQL: SHOW COLUMNS FROM `think_activity` [ RunTime:0.004602s ]
+SQL: SELECT * FROM `think_activity`  [ RunTime:0.000581s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.004447s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.002131s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000787s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000502s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000452s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000425s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003314s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005309s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.058229s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058446s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002007s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003767s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001802s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002082s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010182s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002496s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002695s ]
+
+[ 2014-04-15T10:25:26+08:00 ] 127.0.0.1 /qiuzudui/index.php/Index/index_personal
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003155s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006229s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002680s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.007169s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001035s ]
+SQL: SHOW COLUMNS FROM `think_activity` [ RunTime:0.012020s ]
+SQL: SELECT * FROM `think_activity`  [ RunTime:0.000992s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.009769s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000960s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.001271s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.003195s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000923s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000888s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003335s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003628s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.076656s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077007s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001264s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001197s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000738s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001390s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005216s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.004393s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004641s ]
+
+[ 2014-04-15T10:26:03+08:00 ] 127.0.0.1 /qiuzudui/index.php/Index/index_personal
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.007660s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008011s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003661s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.011843s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.007933s ]
+SQL: SHOW COLUMNS FROM `think_activity` [ RunTime:0.017918s ]
+SQL: SELECT * FROM `think_activity`  [ RunTime:0.001181s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.010049s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.004117s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.001316s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000928s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.004076s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.004234s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.007424s ]
+INFO: [ view_template ] --END-- [ RunTime:0.007716s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.111504s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.111778s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002369s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.006951s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.007497s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003030s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.021072s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003500s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003716s ]
+
+[ 2014-04-15T10:26:16+08:00 ] 127.0.0.1 /qiuzudui/index.php/Index/index_personal
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.006098s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006491s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.010055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010494s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.008483s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.002782s ]
+SQL: SHOW COLUMNS FROM `think_activity` [ RunTime:0.014488s ]
+SQL: SELECT * FROM `think_activity`  [ RunTime:0.000994s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.007931s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.004234s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000894s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.001051s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.003432s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000896s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004980s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005266s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.075476s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075997s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002251s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002090s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002220s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002453s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009636s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003156s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003362s ]
+
+[ 2014-04-15T10:27:28+08:00 ] 127.0.0.1 /qiuzudui/index.php/Index/index_personal
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.010740s ]
+INFO: [ route_check ] --END-- [ RunTime:0.011099s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004221s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.023647s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000762s ]
+SQL: SHOW COLUMNS FROM `think_activity` [ RunTime:0.007039s ]
+SQL: SELECT * FROM `think_activity`  [ RunTime:0.000912s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.005439s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000918s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000797s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000717s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000732s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000697s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003976s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004206s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.114559s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.114878s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002835s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002804s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002279s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002930s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011568s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.005865s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006085s ]
+
+[ 2014-04-15T10:28:35+08:00 ] ERR: [1] Unsupported operand types C:\AppServ\www\qiuzudui\Lib\Action\IndexAction.class.php 第 33 行.
+[ 2014-04-15T10:28:53+08:00 ] 127.0.0.1 /qiuzudui/index.php/Index/index_personal
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003339s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003702s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002440s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.010522s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.003957s ]
+SQL: SHOW COLUMNS FROM `think_activity` [ RunTime:0.016093s ]
+SQL: SELECT * FROM `think_activity`  [ RunTime:0.000950s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.007039s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000995s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.003113s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.001645s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.001156s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.004507s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003490s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003773s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.086144s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.086412s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001532s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003758s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001733s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001505s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009136s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001767s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001959s ]
+
+[ 2014-04-15T10:29:07+08:00 ] 127.0.0.1 /qiuzudui/index.php/Index/index_personal
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.007944s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008306s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003873s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.006785s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000716s ]
+SQL: SHOW COLUMNS FROM `think_activity` [ RunTime:0.021124s ]
+SQL: SELECT * FROM `think_activity`  [ RunTime:0.000838s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.007861s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000763s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000678s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.002900s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000625s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000644s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003833s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004055s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.060541s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060942s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002478s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002180s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001814s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.004797s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012779s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003342s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003560s ]
+
+[ 2014-04-15T10:29:32+08:00 ] 127.0.0.1 /qiuzudui/index.php/Index/index_personal
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003752s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004067s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003141s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.011231s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000841s ]
+SQL: SHOW COLUMNS FROM `think_activity` [ RunTime:0.006180s ]
+SQL: SELECT * FROM `think_activity`  [ RunTime:0.000857s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.005989s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000799s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000963s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000894s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.005058s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000815s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004365s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004623s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.080918s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081216s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002820s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002645s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002210s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003171s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011572s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003739s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003968s ]
+
+[ 2014-04-15T10:31:28+08:00 ] 127.0.0.1 /qiuzudui/index.php/Index/index_personal
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003062s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003296s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.006376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006604s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.005015s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000712s ]
+SQL: SHOW COLUMNS FROM `think_activity` [ RunTime:0.004427s ]
+SQL: SELECT * FROM `think_activity`  [ RunTime:0.002151s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.006670s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000640s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000582s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000598s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000628s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000630s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002870s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003064s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.057658s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057865s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002125s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002185s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001848s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.011984s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018712s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.004214s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004398s ]
+
+[ 2014-04-15T10:31:42+08:00 ] 127.0.0.1 /qiuzudui/index.php/Index/index_personal
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004021s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004280s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008472s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.004241s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000620s ]
+SQL: SHOW COLUMNS FROM `think_activity` [ RunTime:0.005666s ]
+SQL: SELECT * FROM `think_activity`  [ RunTime:0.000657s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.005622s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000570s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000664s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000744s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000542s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.001412s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003857s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004047s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.064198s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064446s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.004990s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002005s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.003570s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014237s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002979s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003180s ]
+
+[ 2014-04-15T10:31:58+08:00 ] 127.0.0.1 /qiuzudui/index.php/Index/index_personal
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003085s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003412s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002750s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.021212s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.003940s ]
+SQL: SHOW COLUMNS FROM `think_activity` [ RunTime:0.009872s ]
+SQL: SELECT * FROM `think_activity`  [ RunTime:0.001077s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.021685s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.136708s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.005175s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000896s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000844s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000759s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002195s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002561s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.082955s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083227s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001250s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.005133s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000857s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001883s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009829s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001874s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002071s ]
+
+[ 2014-04-15T10:33:38+08:00 ] 127.0.0.1 /qiuzudui/index.php/Index/index_personal
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003157s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003508s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002406s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.012238s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.001580s ]
+SQL: SHOW COLUMNS FROM `think_activity` [ RunTime:0.022086s ]
+SQL: SELECT * FROM `think_activity`  [ RunTime:0.006375s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.010658s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000698s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.001014s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.001287s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000790s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000638s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001358s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001598s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.059389s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059664s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.005365s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001112s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000725s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001292s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009065s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001688s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001898s ]
+
+[ 2014-04-15T10:36:26+08:00 ] 127.0.0.1 /qiuzudui/index.php/Login/logout
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004374s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004760s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.006227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006539s ]
+
+[ 2014-04-15T10:36:26+08:00 ] 127.0.0.1 /qiuzudui/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002528s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002791s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001788s ]
+NOTIC: [8] Undefined index:  user C:\AppServ\www\qiuzudui\Lib\Action\IndexAction.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_activity` [ RunTime:0.010724s ]
+SQL: SELECT * FROM `think_activity`  [ RunTime:0.000764s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.007931s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000778s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000600s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000704s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000606s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000586s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003467s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003692s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.083510s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083763s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003081s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002325s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.004311s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003344s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013698s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.006907s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007134s ]
+
+[ 2014-04-15T10:36:49+08:00 ] 127.0.0.1 /qiuzudui/index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004745s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010132s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.009518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009805s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.008747s ]
+SQL: SELECT * FROM `think_user` WHERE ( `email` = 'zhengszh3@gmail.com' ) AND ( `password` = 'flashman1994' ) LIMIT 1   [ RunTime:0.001024s ]
+
+[ 2014-04-15T10:36:50+08:00 ] 127.0.0.1 /qiuzudui/index.php/Index/index_society
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002497s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002762s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002238s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.005904s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000781s ]
+SQL: SHOW COLUMNS FROM `think_activity` [ RunTime:0.010672s ]
+SQL: SELECT * FROM `think_activity`  [ RunTime:0.004576s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.035971s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000570s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000608s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000596s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000662s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000840s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003420s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003658s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.071702s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071959s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002380s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.007490s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.003753s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002935s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017792s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.007088s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007325s ]
+
+[ 2014-04-15T10:38:59+08:00 ] 127.0.0.1 /qiuzudui/index.php/Index/index_society
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.011023s ]
+INFO: [ route_check ] --END-- [ RunTime:0.011433s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002915s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.006240s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000987s ]
+SQL: SHOW COLUMNS FROM `think_activity` [ RunTime:0.008066s ]
+SQL: SELECT * FROM `think_activity`  [ RunTime:0.000761s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.006760s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.001254s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000715s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.001868s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000749s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000639s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003418s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003647s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.067219s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067471s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.005079s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003369s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002148s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.007301s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018617s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.005700s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006039s ]
+
+[ 2014-04-15T10:39:04+08:00 ] 127.0.0.1 /qiuzudui/index.php/Profile/info
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005428s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006475s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004677s ]
+
+[ 2014-04-15T10:39:05+08:00 ] 127.0.0.1 /qiuzudui/index.php/Profile/info_society
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003070s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003403s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002885s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.006868s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.001736s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004514s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004796s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.065043s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065321s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002441s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002711s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.004493s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002607s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012899s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002955s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003158s ]
+
+[ 2014-04-15T10:39:52+08:00 ] 127.0.0.1 /qiuzudui/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003583s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003856s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002817s ]
+
+[ 2014-04-15T10:39:52+08:00 ] 127.0.0.1 /qiuzudui/index.php/Index/index_society
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002481s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002800s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002156s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.007704s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.001003s ]
+SQL: SHOW COLUMNS FROM `think_activity` [ RunTime:0.006118s ]
+SQL: SELECT * FROM `think_activity`  [ RunTime:0.001494s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.006126s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000699s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.002030s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000934s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.002901s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.001030s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003556s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003804s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.065640s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065911s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002277s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002307s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001825s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002496s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009526s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003250s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003459s ]
+
+[ 2014-04-15T10:39:59+08:00 ] 127.0.0.1 /qiuzudui/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003786s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004133s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002575s ]
+
+[ 2014-04-15T10:40:00+08:00 ] 127.0.0.1 /qiuzudui/index.php/Index/index_society
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002614s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003044s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002022s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.005860s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000785s ]
+SQL: SHOW COLUMNS FROM `think_activity` [ RunTime:0.006312s ]
+SQL: SELECT * FROM `think_activity`  [ RunTime:0.001065s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.009385s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.004045s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000873s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000768s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000593s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.001178s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001857s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002064s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.091980s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.092373s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.011943s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001882s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001085s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002134s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018104s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002003s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002222s ]
+
+[ 2014-04-15T10:41:27+08:00 ] 127.0.0.1 /qiuzudui/index.php/Index/index_society
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005623s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006101s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004453s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.010609s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000939s ]
+SQL: SHOW COLUMNS FROM `think_activity` [ RunTime:0.009926s ]
+SQL: SELECT * FROM `think_activity`  [ RunTime:0.001068s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.027628s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000997s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000907s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.001040s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000790s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.001034s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004540s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004854s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.104761s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.105073s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002802s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002886s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002484s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011998s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.004023s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004420s ]
+
+[ 2014-04-15T10:50:12+08:00 ] 127.0.0.1 /qiuzudui/index.php/Activity/activity_society
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.007217s ]
+INFO: [ route_check ] --END-- [ RunTime:0.007567s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003557s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.015114s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.001162s ]
+SQL: SHOW COLUMNS FROM `think_activity` [ RunTime:0.029896s ]
+SQL: SHOW COLUMNS FROM `think_activity` [ RunTime:0.009116s ]
+SQL: SELECT * FROM `think_activity` WHERE ( `host_id` = 13 )  [ RunTime:0.001176s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004962s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005318s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.097403s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.097847s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.004461s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.006379s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.003107s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003665s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019954s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.004904s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005171s ]
+
+[ 2014-04-15T10:53:00+08:00 ] 127.0.0.1 /qiuzudui/index.php/Activity/activity_society
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005975s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006322s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004334s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.009116s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.001212s ]
+SQL: SHOW COLUMNS FROM `think_activity` [ RunTime:0.193580s ]
+SQL: SHOW COLUMNS FROM `think_activity` [ RunTime:0.037497s ]
+SQL: SELECT * FROM `think_activity` WHERE ( `host_id` = 13 )  [ RunTime:0.001232s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.007639s ]
+INFO: [ view_template ] --END-- [ RunTime:0.007969s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.082457s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082804s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.014147s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.004100s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002802s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003929s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.026093s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.004104s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004365s ]
+
+[ 2014-04-15T10:59:48+08:00 ] 127.0.0.1 /qiuzudui/index.php/Activity/activity_society
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.008050s ]
+INFO: [ route_check ] --END-- [ RunTime:0.008414s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.008478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008841s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.012981s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.001016s ]
+SQL: SHOW COLUMNS FROM `think_activity` [ RunTime:0.006607s ]
+SQL: SHOW COLUMNS FROM `think_activity` [ RunTime:0.008386s ]
+SQL: SELECT * FROM `think_activity` WHERE ( `host_id` = 13 )  [ RunTime:0.001088s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.005210s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005511s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.085229s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085677s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.007007s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002983s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002721s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003451s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017022s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.013075s ]
+INFO: [ view_end ] --END-- [ RunTime:0.013428s ]
+
+[ 2014-04-15T11:02:29+08:00 ] 127.0.0.1 /qiuzudui/index.php/Activity/activity_society
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.037852s ]
+INFO: [ route_check ] --END-- [ RunTime:0.038510s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.017005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017315s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.009434s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000849s ]
+SQL: SHOW COLUMNS FROM `think_activity` [ RunTime:0.020592s ]
+SQL: SHOW COLUMNS FROM `think_activity` [ RunTime:0.008735s ]
+SQL: SELECT * FROM `think_activity` WHERE ( `host_id` = 13 )  [ RunTime:0.001004s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.025600s ]
+INFO: [ view_template ] --END-- [ RunTime:0.029116s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.411120s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.411454s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.031104s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.009338s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.008487s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.013433s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.063251s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.080426s ]
+INFO: [ view_end ] --END-- [ RunTime:0.080711s ]
+
+[ 2014-04-15T11:02:38+08:00 ] 127.0.0.1 /qiuzudui/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.058323s ]
+INFO: [ route_check ] --END-- [ RunTime:0.058685s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.013270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013790s ]
+
+[ 2014-04-15T11:02:38+08:00 ] 127.0.0.1 /qiuzudui/index.php/Index/index_society
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003117s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003514s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002231s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.005422s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.001447s ]
+SQL: SHOW COLUMNS FROM `think_activity` [ RunTime:0.008271s ]
+SQL: SELECT * FROM `think_activity`  [ RunTime:0.000785s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.023281s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000733s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.003266s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000637s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000634s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.001491s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.005840s ]
+INFO: [ view_template ] --END-- [ RunTime:0.006081s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.072293s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072570s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002371s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003411s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002183s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002612s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011581s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002944s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003144s ]
+
+[ 2014-04-15T11:02:50+08:00 ] 127.0.0.1 /qiuzudui/index.php/Login/logout
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.009687s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009965s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002838s ]
+
+[ 2014-04-15T11:02:50+08:00 ] 127.0.0.1 /qiuzudui/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003117s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003409s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002353s ]
+NOTIC: [8] Undefined index:  user C:\AppServ\www\qiuzudui\Lib\Action\IndexAction.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_activity` [ RunTime:0.005654s ]
+SQL: SELECT * FROM `think_activity`  [ RunTime:0.002677s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.010317s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.013223s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000683s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000599s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000496s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.027634s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002686s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002912s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.143442s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.143685s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001210s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001044s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000661s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001229s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004786s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001595s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001766s ]
+
+[ 2014-04-15T19:28:31+08:00 ] 127.0.0.1 /qiuzudui/index.php/Index/index_personal
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.063760s ]
+INFO: [ route_check ] --END-- [ RunTime:0.075653s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.017429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017724s ]
+NOTIC: [8] Undefined index:  user C:\AppServ\www\qiuzudui\Lib\Action\IndexAction.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:1.477831s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = null ) LIMIT 1   [ RunTime:0.076872s ]
+SQL: SHOW COLUMNS FROM `think_activity` [ RunTime:0.127048s ]
+SQL: SELECT * FROM `think_activity`  [ RunTime:0.076427s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.006104s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000710s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000638s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000836s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000598s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000661s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.018459s ]
+INFO: [ view_template ] --END-- [ RunTime:0.018747s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.209225s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.209485s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.014675s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.009229s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.004877s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.012637s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.042110s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.010772s ]
+INFO: [ view_end ] --END-- [ RunTime:0.011002s ]
+
+[ 2014-04-15T19:28:46+08:00 ] 127.0.0.1 /qiuzudui/index.php/Index/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002698s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003233s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002857s ]
+NOTIC: [8] Undefined index:  user C:\AppServ\www\qiuzudui\Lib\Action\IndexAction.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_activity` [ RunTime:0.005895s ]
+SQL: SELECT * FROM `think_activity`  [ RunTime:0.002927s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.005367s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000633s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000736s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000517s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000845s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000555s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002423s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002644s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.089077s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.089308s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002114s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001695s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.012486s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.012702s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.031077s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.005316s ]
+INFO: [ view_end ] --END-- [ RunTime:0.006491s ]
+
+[ 2014-04-15T19:29:06+08:00 ] 127.0.0.1 /qiuzudui/index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.009190s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009670s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004166s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.008031s ]
+SQL: SELECT * FROM `think_user` WHERE ( `email` = 'zhengszh3@gmail.com' ) AND ( `password` = 'flashman1994' ) LIMIT 1   [ RunTime:0.039931s ]
+
+[ 2014-04-15T19:29:06+08:00 ] 127.0.0.1 /qiuzudui/index.php/Index/index_society
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005799s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006140s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003163s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.005585s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000786s ]
+SQL: SHOW COLUMNS FROM `think_activity` [ RunTime:0.006215s ]
+SQL: SELECT * FROM `think_activity`  [ RunTime:0.000835s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.009062s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.002797s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000818s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000638s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000805s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000953s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004375s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004687s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.113158s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.113408s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.005264s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002589s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002320s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003007s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013985s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003267s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003627s ]
+
+[ 2014-04-15T19:29:35+08:00 ] 127.0.0.1 /qiuzudui/index.php/Profile/info
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003362s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003762s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002790s ]
+
+[ 2014-04-15T19:29:35+08:00 ] 127.0.0.1 /qiuzudui/index.php/Profile/info_society
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003649s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004099s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002535s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.007817s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.001061s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004005s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004376s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.099329s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.099604s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001657s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001445s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000834s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008789s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003065s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003348s ]
+
+[ 2014-04-15T19:29:37+08:00 ] 127.0.0.1 /qiuzudui/index.php/Profile
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.006228s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006576s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.005152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005515s ]
+
+[ 2014-04-15T19:29:38+08:00 ] 127.0.0.1 /qiuzudui/index.php/Profile/profile_society
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002771s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003033s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002235s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.006778s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000742s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002486s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002693s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.080028s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080277s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002972s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002712s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000904s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001955s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009166s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002042s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002338s ]
+
+[ 2014-04-15T19:29:53+08:00 ] 127.0.0.1 /qiuzudui/index.php/Profile/profile_society
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.039559s ]
+INFO: [ route_check ] --END-- [ RunTime:0.039981s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003988s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.025331s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.005793s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.007611s ]
+INFO: [ view_template ] --END-- [ RunTime:0.007921s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.169263s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.169602s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.005770s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002484s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.006678s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.005146s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.039312s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.008024s ]
+INFO: [ view_end ] --END-- [ RunTime:0.008423s ]
+
+[ 2014-04-15T19:30:41+08:00 ] 127.0.0.1 /qiuzudui/index.php/Profile/profile_society
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004592s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004842s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004605s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.010876s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000813s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.008142s ]
+INFO: [ view_template ] --END-- [ RunTime:0.008396s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.071079s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071293s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001888s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001987s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002382s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.029437s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037063s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.005451s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005658s ]
+
+[ 2014-04-15T19:33:24+08:00 ] 127.0.0.1 /qiuzudui/index.php/Profile/profile_society
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.061252s ]
+INFO: [ route_check ] --END-- [ RunTime:0.063958s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.105268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.105575s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.009140s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.001997s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.025671s ]
+INFO: [ view_template ] --END-- [ RunTime:0.026169s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.238477s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.238836s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.017845s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.022913s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.029467s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.106403s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.177642s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.185561s ]
+INFO: [ view_end ] --END-- [ RunTime:0.185919s ]
+
+[ 2014-04-15T19:33:46+08:00 ] 127.0.0.1 /qiuzudui/index.php/Profile/changeProfile
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005168s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005808s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006546s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.007314s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000865s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003919s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004145s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.084772s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085059s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002458s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002532s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.005094s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003016s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013838s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.005290s ]
+INFO: [ view_end ] --END-- [ RunTime:0.005614s ]
+
+[ 2014-04-15T19:45:49+08:00 ] 127.0.0.1 /qiuzudui/index.php/Login/logout
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.034604s ]
+INFO: [ route_check ] --END-- [ RunTime:0.035235s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.017022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017988s ]
+
+[ 2014-04-15T19:45:50+08:00 ] 127.0.0.1 /qiuzudui/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.013073s ]
+INFO: [ route_check ] --END-- [ RunTime:0.013616s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002432s ]
+NOTIC: [8] Undefined index:  user C:\AppServ\www\qiuzudui\Lib\Action\IndexAction.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `think_activity` [ RunTime:0.010824s ]
+SQL: SELECT * FROM `think_activity`  [ RunTime:0.003023s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.006572s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.002753s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.001298s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000687s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000700s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000664s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.015973s ]
+INFO: [ view_template ] --END-- [ RunTime:0.016216s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.149161s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.149539s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.010641s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.024162s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.003574s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.032911s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.071967s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.006878s ]
+INFO: [ view_end ] --END-- [ RunTime:0.007100s ]
+
+[ 2014-04-15T19:46:02+08:00 ] 127.0.0.1 /qiuzudui/index.php/Login/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.008376s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009234s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.016321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016723s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.007304s ]
+SQL: SELECT * FROM `think_user` WHERE ( `email` = '605860112@qq.com' ) AND ( `password` = 'flashman1994' ) LIMIT 1   [ RunTime:0.000810s ]
+
+[ 2014-04-15T19:46:02+08:00 ] 127.0.0.1 /qiuzudui/index.php/Index/index_personal
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002566s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002937s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003612s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.008228s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000890s ]
+SQL: SHOW COLUMNS FROM `think_activity` [ RunTime:0.006028s ]
+SQL: SELECT * FROM `think_activity`  [ RunTime:0.001311s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.007271s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.001659s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000734s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.001083s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000678s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000642s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.005109s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005358s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.126150s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.126486s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002410s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002145s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.003822s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003069s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012261s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.012011s ]
+INFO: [ view_end ] --END-- [ RunTime:0.012235s ]
+
+[ 2014-04-15T19:46:07+08:00 ] 127.0.0.1 /qiuzudui/index.php/Profile/info
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002542s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002898s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001963s ]
+
+[ 2014-04-15T19:46:07+08:00 ] 127.0.0.1 /qiuzudui/index.php/Profile/info_personal
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.017951s ]
+INFO: [ route_check ] --END-- [ RunTime:0.018227s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002050s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.005680s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000833s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003047s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003313s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ac C:\AppServ\www\qiuzudui\Runtime\Cache\371ab2c290ac5e940e1b1f1c8bb0e581.php 第 34 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.092920s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093144s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001173s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001360s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000816s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.011958s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016032s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002923s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003139s ]
+
+[ 2014-04-15T19:46:38+08:00 ] 127.0.0.1 /qiuzudui/index.php/Profile
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.006187s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006470s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003708s ]
+
+[ 2014-04-15T19:46:38+08:00 ] 127.0.0.1 /qiuzudui/index.php/Profile/profile_personal
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.010634s ]
+INFO: [ route_check ] --END-- [ RunTime:0.013423s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002065s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.006934s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000818s ]
+SQL: SHOW COLUMNS FROM `think_ability` [ RunTime:0.176538s ]
+SQL: SHOW COLUMNS FROM `think_user_ability` [ RunTime:0.082217s ]
+ERR: Table 'qiuzudui.think_user_ability' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_user_ability`
+SQL: SHOW COLUMNS FROM `think_userability` [ RunTime:0.103472s ]
+SQL: SELECT * FROM `think_userability` WHERE ( `user_id` = 1 )  [ RunTime:0.100348s ]
+SQL: SHOW COLUMNS FROM `think_ability` [ RunTime:0.013023s ]
+SQL: SELECT * FROM `think_ability` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.007255s ]
+SQL: SELECT * FROM `think_ability` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.001656s ]
+SQL: SELECT * FROM `think_ability` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000545s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002799s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003041s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ac C:\AppServ\www\qiuzudui\Runtime\Cache\763ce6848af5323b713fe0da41a3eb15.php 第 47 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.078529s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078882s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001226s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001081s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000793s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001557s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005387s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001795s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002155s ]
+
+[ 2014-04-15T19:47:40+08:00 ] 127.0.0.1 /qiuzudui/index.php/Profile/changeProfile
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.006431s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006789s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002146s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002681s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.007288s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.005429s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.005545s ]
+SQL: UPDATE `think_user` SET `photo`='534d1c5a88350.jpg' WHERE ( `id` = 1 ) [ RunTime:0.526086s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002584s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002855s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.055774s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056327s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001129s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001099s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001092s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002067s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006201s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002867s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003080s ]
+SQL: UPDATE `think_user` SET `name`='郑穗展',`gender`='M',`grade`=2011 WHERE ( `id` = 1 ) [ RunTime:0.063393s ]
+SQL: SHOW COLUMNS FROM `think_ability` [ RunTime:0.006653s ]
+SQL: SELECT * FROM `think_ability` WHERE ( `name` = '美工' ) LIMIT 1   [ RunTime:0.000903s ]
+SQL: SELECT * FROM `think_ability` WHERE ( `name` = '美工' ) LIMIT 1   [ RunTime:0.001943s ]
+SQL: SHOW COLUMNS FROM `think_userability` [ RunTime:0.005668s ]
+SQL: SELECT * FROM `think_userability` WHERE ( `user_id` = 1 ) AND ( `ability_id` = 1 ) LIMIT 1   [ RunTime:0.046556s ]
+SQL: SELECT * FROM `think_ability` WHERE ( `name` = '传设院' ) LIMIT 1   [ RunTime:0.015160s ]
+SQL: SELECT * FROM `think_ability` WHERE ( `name` = '传设院' ) LIMIT 1   [ RunTime:0.000766s ]
+SQL: SELECT * FROM `think_userability` WHERE ( `user_id` = 1 ) AND ( `ability_id` = 2 ) LIMIT 1   [ RunTime:0.000812s ]
+SQL: SELECT * FROM `think_ability` WHERE ( `name` = '男生' ) LIMIT 1   [ RunTime:0.000769s ]
+SQL: SELECT * FROM `think_ability` WHERE ( `name` = '男生' ) LIMIT 1   [ RunTime:0.000606s ]
+SQL: SELECT * FROM `think_userability` WHERE ( `user_id` = 1 ) AND ( `ability_id` = 3 ) LIMIT 1   [ RunTime:0.001042s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000380s ]
+INFO: [ view_template ] --END-- [ RunTime:-0.223807s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.007698s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.168391s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000186s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000136s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000042s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000301s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.170385s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000114s ]
+INFO: [ view_end ] --END-- [ RunTime:-0.168258s ]
+
+[ 2014-04-15T19:47:41+08:00 ] 127.0.0.1 /qiuzudui/index.php/Profile/profile_personal
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003362s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003590s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003189s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.004399s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000979s ]
+SQL: SHOW COLUMNS FROM `think_ability` [ RunTime:0.004348s ]
+SQL: SHOW COLUMNS FROM `think_user_ability` [ RunTime:0.026588s ]
+ERR: Table 'qiuzudui.think_user_ability' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_user_ability`
+SQL: SHOW COLUMNS FROM `think_userability` [ RunTime:0.004261s ]
+SQL: SELECT * FROM `think_userability` WHERE ( `user_id` = 1 )  [ RunTime:0.000529s ]
+SQL: SHOW COLUMNS FROM `think_ability` [ RunTime:0.006147s ]
+SQL: SELECT * FROM `think_ability` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000606s ]
+SQL: SELECT * FROM `think_ability` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000442s ]
+SQL: SELECT * FROM `think_ability` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.000661s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003767s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003973s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ac C:\AppServ\www\qiuzudui\Runtime\Cache\763ce6848af5323b713fe0da41a3eb15.php 第 47 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.042561s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042764s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001018s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001037s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000709s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001261s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004589s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002264s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002452s ]
+
+[ 2014-04-15T19:47:51+08:00 ] 127.0.0.1 /qiuzudui/index.php/Profile/info
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005110s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005426s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002878s ]
+
+[ 2014-04-15T19:47:51+08:00 ] 127.0.0.1 /qiuzudui/index.php/Profile/info_personal
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002938s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003483s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004363s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.008323s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000720s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.009375s ]
+INFO: [ view_template ] --END-- [ RunTime:0.009603s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ac C:\AppServ\www\qiuzudui\Runtime\Cache\371ab2c290ac5e940e1b1f1c8bb0e581.php 第 34 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.072342s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072547s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002150s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.007070s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001820s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002646s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014282s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.004219s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004605s ]
+
+[ 2014-04-15T19:47:53+08:00 ] 127.0.0.1 /qiuzudui/index.php/Profile/info
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003350s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003670s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.009970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010413s ]
+
+[ 2014-04-15T19:47:54+08:00 ] 127.0.0.1 /qiuzudui/index.php/Profile/info_personal
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004241s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004579s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002649s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.008777s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.003016s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001465s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001787s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: ac C:\AppServ\www\qiuzudui\Runtime\Cache\371ab2c290ac5e940e1b1f1c8bb0e581.php 第 34 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.050395s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050619s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001698s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001388s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000772s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001370s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008480s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001709s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001900s ]
+
+[ 2014-04-15T19:48:15+08:00 ] 127.0.0.1 /qiuzudui/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.005174s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005559s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002085s ]
+
+[ 2014-04-15T19:48:15+08:00 ] 127.0.0.1 /qiuzudui/index.php/Index/index_personal
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002481s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002827s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003350s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.009756s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000780s ]
+SQL: SHOW COLUMNS FROM `think_activity` [ RunTime:0.006367s ]
+SQL: SELECT * FROM `think_activity`  [ RunTime:0.001054s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.006029s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.001025s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000824s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000655s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.004996s ]
+SQL: SELECT * FROM `think_user` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000761s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002400s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002628s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.073418s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073666s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001375s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001159s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000853s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002730s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006798s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001825s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002178s ]
+

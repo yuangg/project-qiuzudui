@@ -1,0 +1,68 @@
+a{
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#publicForm{
+	padding-left: 25%;
+}
+
+.info-block{
+	margin-bottom: 5px;
+	position: relative;
+}
+.info-block .info{
+	font-size: 15px;
+	position: absolute;
+	right: 81%;
+	top: 5px;
+}
+
+.info-block .info-value{
+	position: relative;
+	left: 21%;
+}
+
+
+.info-block.gender-block{
+	margin-bottom: 23px;
+    margin-top: -1px;
+}
+
+.photo{
+	margin-bottom: 11px;
+	position: relative;
+    left: 21%;
+}
+
+.gender{
+	margin-left: 22%;
+    margin-right: -19%;
+}
+
+.tip{
+	margin-left: 22%;
+}
+
+#poster{
+	width: 70px;
+	height: 70px;
+}
+
+textarea.info-value{
+	width: 48%;
+}
+
+#submit{
+	margin-left: 21%;
+	width: 14%;
+    height: 105%;
+    font-size: 120%;
+    font-family: 微软雅黑;
+    color: white;
+    background-image: none;
+    background-color: #ff974f;
+    border-color: #f54f29;
+    margin-top: 15px;
+}
+

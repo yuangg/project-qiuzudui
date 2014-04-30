@@ -1,0 +1,418 @@
+body{
+	text-shadow: 1px 1px 1px #CCC7C7;
+	font-family: "微软雅黑";
+	text-decoration: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+p{
+	margin: 0px;
+}
+
+/* content */
+#content {
+  width: 1300px;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+/* content end */
+
+/* navbar */
+.navbar {
+	width: 1300px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 123px;
+}
+
+.container-fluid{
+	margin-left: 210px;
+	margin-right: 210px;
+	width: 64%;
+}
+
+.navbar .brand{
+	position: relative;
+    top: 16px;
+    margin-bottom: 5px;
+}
+
+.navbar .brand.private{
+	margin-left: -7%;
+}
+
+.navbar .brand.public{
+	margin-left: -10%;
+}
+
+
+.first-approch.pull-right.beforeLogin{
+	position: relative;
+	right: -9%;
+}
+
+.first-approch.pull-right.afterLogin{
+	padding-top: 20px;
+	margin-right: -8%;
+}
+
+.first-approch.pull-right.afterLogin.private{
+	margin-left: 51px;
+}
+
+#photo-private,#photo-public{
+	width: 70px;
+	height: 70px;
+	position: relative;
+}
+
+#photo-public{
+    left: 62px;
+}
+
+#photo-private{
+    left: 19px;
+}
+
+.first-approch.pull-right.left{
+	position: relative;
+	top: 29px;
+	left: 7%;
+	float: right;
+	margin-right: 2%;
+	text-decoration: none;
+}
+
+.first-approch.pull-right.left a{
+	color: rgb(144, 193, 255);
+}
+
+#publicName,#privateName{
+	font-size: 18px;
+}
+
+#name{
+	display: inline-block;
+	width: 197px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+
+.bottom1{
+	display: inline-block;
+}
+
+#logout{
+	display: inline-block;
+}
+
+.navline{
+	position: relative;
+	top: -14%;
+}
+
+.navline.unlog{
+	top: -25px;
+}
+
+.navbar form{
+	margin-top: 13%;
+	margin-bottom: 5%;
+	width: 211px;
+}
+.navbar .reAndLoInput{
+	display: inline-block;
+	width: 60%;
+}
+
+.navbar .reAndLoButton{
+	margin-top: -5%;
+	margin-left: 2%;
+}
+
+.navbar .btn.btn-warning{
+	float: right;
+	margin-top: -40px;
+	margin-left: 50px;
+	border-color: #f54f29;
+}
+
+.navbar .btn.btn-info{
+	float: right;
+	margin-top: -40px;
+	margin-left: 20px;
+}
+
+#search{
+	display: inline-block;
+	width: 101px;
+}
+
+.navbar .shortline{
+	display: inline-block;
+	width: 13%;
+	height: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.public.shortline{
+	width: 12%;
+}
+
+.private.shortline{
+	width: 15%;
+}
+
+.navbar .shortline.blueline{
+	background-color: rgb(144, 193, 255);
+}
+
+.navbar .shortline.orangeline{
+	background-color: rgb(248, 210, 140);
+}
+
+.navbar .longline{
+	display: inline-block;
+	width: 26%;
+	height: 10px;
+	background-color: #dcdcdc;
+}
+
+.public.longline{
+	width: 20%;
+}
+
+.private.longline{
+	width: 20%;
+}
+
+.navbar .home,#home{
+	display: inline-block;
+	text-decoration: none;
+	color: rgb(144, 193, 255);
+}
+
+.navline span {
+	font-size: 20px;
+}
+
+.navbar .search-bar{
+	display: inline-block;
+	position: relative;
+	bottom: -3px;
+	margin: 0px;
+    right: 0px;
+    width: auto;
+}
+
+.btn.btn-blue {
+	margin-top: -10px;
+	margin-left: 6px;
+}
+/* navbar end */
+
+
+/*container*/
+.container{
+	background-color: #f5f5f5;
+	padding: 2px;
+	height: auto;
+	margin-bottom: 20px;
+	margin-top: 2%;
+}
+
+.header{
+	margin-top: 7%;
+	width: 100%;
+	height: 2px;
+	background-color: #dcdcdc;
+	position: relative;
+}
+
+.post,#post{
+	color: #7d7d7d;
+	position: relative;
+	top: 54px;
+	text-align: center;
+	font-size: 165%;
+}
+
+.header #postline{
+	background-color: #f9c690;
+	width: 13%;
+	height: 100%;
+	position: absolute;
+	top: 0%;
+	left: 44%;
+}
+
+form{
+	margin: 4% auto;
+	position: relative;
+}
+
+#infoForm{
+	padding-left: 24%;
+}
+
+.form-group{
+	margin-bottom: 15px;
+
+}
+
+.form-control{
+	margin-left: 15px;
+}
+
+.form-horizontal .controls{
+	margin-left: 15px;
+}
+
+.form-horizontal .controls input{
+	width: 86%;
+    background-color: white;
+}
+
+.input-append{
+	margin-left: 14px;
+}
+
+.form-control.teamSize{
+	width: 5%;
+}
+
+
+textarea.form-control{
+	width: 60%;
+    overflow-y: scroll;
+    height: 200px;
+    margin-bottom: 8px;
+}
+
+/*upload img*/
+#postPicture {
+	
+}
+.imgUpload{
+	float: right;
+	width: 43%;
+	position: absolute;
+	top: 0%;
+	left: 46%;
+}
+
+.imgUpload #poster{
+	width: 168px;
+	height: 238px;
+	border: 2px #ababab;
+}
+
+.imgUpload #upload{
+	display: inline-block;
+	width: 37%;
+}
+
+#upload-image{
+	margin-left: 16px;
+    width: 67px;
+    height: 20px;
+    font-size: 109%;
+    font-family: 微软雅黑;
+    color: #7d7d7d;
+    background-color: #e5e5e5;
+    border-color: #ababab;
+    background-image: none;
+}
+
+#imgNote{
+	width: 80%;
+	position: absolute;
+	left: 44%;
+	top: 62%;
+}
+
+#imageCover{
+	width: 35%;
+}
+
+.form-group.submit{
+	display: inline-block;
+	margin-left: 32%;
+	margin-top: 2%;
+}
+
+.form-group.submit #submit,#preview{
+	width: 120%;
+	height: 105%;
+	font-size: 120%;
+	font-family: 微软雅黑;
+	color: white;
+	background-image: none;
+}
+
+.form-group.submit #submit{
+	background-color: #ff974f;
+	border-color: #f54f29;
+}
+
+.form-group.submit #preview{
+	background-color: #98cae2;
+	border-color: #669acc;
+	margin-left: -200%;
+}
+
+.tips{
+	margin-left: 178px;
+}
+
+/* footer */
+#footer .footline{
+	width: 73%;
+	height: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#footer .footline.cyanline{
+	background-color: rgb(144, 193, 255);
+}
+
+#footer{
+	clear: both;
+	height: auto;
+	min-width:65%;
+}
+
+#footer .footerContent{
+	width: 850px;
+	height: 80px;
+	margin: 0 auto;
+	color: #8B8B7F;
+	text-align: center;
+	font-size: 15px;
+}
+
+#footer .footerContent a{
+	color: #8B8B7F;
+}
+
+#footer-column{
+	display: inline-block;
+	margin-top: 13px;
+	margin-bottom: 10px;
+}
+/* footer end */
+.weibo{
+	margin-left: 21%;
+	margin-top: 2%;
+}
+
+#copyright{
+	margin-top: -2%;
+}

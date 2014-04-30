@@ -1,0 +1,143 @@
+a{
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/* container */
+.container {
+	background-color: #F2F2EB;
+	margin-bottom: 20px;
+}
+
+/* header */
+.header {
+	width: 450px;
+	margin: 50px 19% 0px auto;
+}
+
+.header .choice {
+	font-size: 15px;
+}
+
+.header .individual {
+	font-size: 25px;
+	color: orange;
+	margin-left: 46px;
+	margin-right: 40px;
+	cursor: pointer;
+} 
+
+.header .association {
+	font-size: 25px;
+	color: #8B8B7F;
+	cursor: pointer;
+}
+/* header end */
+
+/* headerline */
+.headerline {
+	display: inline-block;
+	height: 2px;
+	margin: 10px -5px 0px 0px;
+}
+
+.grayline1 {
+	width: 49%;
+	background-color: #C2C2BC;
+} 
+.grayline2 {
+	width: 64%;
+	background-color: #C2C2BC;
+} 
+.orangeline {
+	width: 13%;
+	background-color: orange;	
+}
+
+.grayline3 {
+	width: 38%;
+	background-color: #C2C2BC;
+} 
+.grayline4 {
+	width: 23%;
+	background-color: #C2C2BC;
+}
+/* headerline end */
+
+#personalBox {
+	display: block;
+}
+#societyBox {
+	display: none;
+}
+.registBox {
+	overflow: hidden;
+	width:650px;
+	margin: 0 auto;
+	margin-left: 145px;
+	margin-top: 40px;	
+	padding-left:30px;
+}
+.registBox p {
+	margin-left: 25px;
+}
+.registBox .star{
+	color: red;
+	font-size: 16px;
+	font-weight: bold;
+	margin-left: 3px;
+}
+
+.registBox ul{
+	list-style: none;
+}
+.registBox lable{
+	font-size: 14px;
+	font-weight: bold;
+	display:inline-block;
+	width:70px;
+	padding-right:5px;
+	text-align:left;
+}
+
+.registBox #male,.registBox #female{
+	margin-left: -10px;
+}
+
+.registBox span{
+	margin-left: 10px;
+	font-size: 12px;
+}
+#submitButton {
+	margin-top: 20px;
+}
+.registBox button {
+	margin-left: 75px;
+	width: 100px;
+}
+.registBox .sex {
+	font-weight: bold;
+	margin-right: 20px;
+}
+#password-verify {
+
+	overflow: hidden;
+	margin-bottom: 5px;
+}
+#password-verify #verify {
+	width: 60px;
+	margin-left: 40px;
+	font-size: 7px;
+}
+#password-verify li {
+	border-radius: 3px;
+	width: 40px;
+	display: block;
+	float: left;
+	padding:0px 5px 0px 5px;
+	text-align: center;
+}
+#submitButton span {
+	color: #ff974f;
+}
+

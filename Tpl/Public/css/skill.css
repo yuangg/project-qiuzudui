@@ -1,0 +1,42 @@
+#mySkill {
+	width: 400px;
+	margin-left: 115px;
+	min-height: 10px;
+	margin-bottom: 40px;
+}
+
+#allSkill {
+	width: 400px;	
+	margin-left: 70px;
+	/*border: 1px solid gray;*/
+	margin-top: 30px;	
+}
+
+#allSkill ul li,#mySkill ul li{
+	cursor: pointer;
+	border-radius: 3px;
+	list-style: none;
+	display: inline-block;
+	width: 95px;
+	margin-top: 10px;
+	margin-left: 10px;
+	padding:5px 7px 5px 7px;
+	text-align: center;
+	background: #e5e5e5;
+	border: 1px #e5e5e5 solid;
+	font-weight: bold;
+	color: #626262;
+}
+#allSkill ul .mouseOver,#mySkill ul .mouseOver {
+	background: #f9c690;
+	border: 1px #f54f29 solid;
+	color: #f54f29;
+}
+
+#skillDefine {
+	margin-top: -10px;
+	margin-left: 150px;
+}
+#skilltip {
+	margin-left: 80px;
+}

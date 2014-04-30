@@ -1,0 +1,31 @@
+.main{
+	margin-top: 3%;
+    margin-left: 13%;
+    margin-bottom: 4%;
+}
+
+.item{
+	margin-bottom: 3%;
+}
+
+.role{
+	margin-left: 3%;
+	margin-top: 3%;
+	font-size: 80%;
+}
+
+h1,h3{
+	color: #7d7d7d;
+}
+
+h2{
+	color: #ababab;
+}
+.footerdetail {
+	padding-right: 5em;
+	margin-left: 3%;
+	margin-bottom: 1%;
+	font-size: 18px;
+	color: #98cae2;
+	line-height: 2em;
+}
