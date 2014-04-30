@@ -1,5 +1,5 @@
 $(document).ready(function(){
-
+	//author hexiaoou
 	$('.carousel').carousel();
     $('.list > li').mouseover(function(){
     	$(this).addClass("active-add");
